@@ -11,7 +11,7 @@ header {
 }
 
 header .container {
-    max-width: 1280px;
+    width: 1064px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -55,21 +55,10 @@ header nav {
     font-size: 16px;
     line-height: 26px;
     margin-left: 28px;
-}
-/*header nav ul li:first-of-type {*/
-/*    margin-left: 108px;*/
-/*}*/
+    align-items: center;
 
-/*header nav ul li:last-of-type {*/
-/*    margin-right: 97px;*/
-/*}*/
-.nav-links a:first-of-type {
-    margin-left: 80px;
 }
 
-.nav-links a:last-of-type {
-    margin-right: 97px;
-}
 header .logo {
     position: absolute;
     left: 50%;
@@ -97,13 +86,12 @@ header .logo {
 
 .first_section {
     background: #F0EFEB;
-    max-width: 1280px;
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-bottom: 71px;
     background-size: cover;
     position: relative;
-    width: 100%;
     margin: auto;
 }
