@@ -54,15 +54,22 @@ header nav {
     font-weight: 700;
     font-size: 16px;
     line-height: 26px;
+    margin-left: 28px;
 }
-header nav ul li:first-of-type {
-    margin-left: 108px;
+/*header nav ul li:first-of-type {*/
+/*    margin-left: 108px;*/
+/*}*/
+
+/*header nav ul li:last-of-type {*/
+/*    margin-right: 97px;*/
+/*}*/
+.nav-links a:first-of-type {
+    margin-left: 80px;
 }
 
-header nav ul li:last-of-type {
+.nav-links a:last-of-type {
     margin-right: 97px;
 }
-
 header .logo {
     position: absolute;
     left: 50%;
