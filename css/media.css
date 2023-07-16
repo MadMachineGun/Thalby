@@ -127,6 +127,7 @@
     nav a:hover {
         color: #222;
     }
+
     .fall_section article h1 {
         font: 700 30px/normal 'Roboto', sans-serif;
         margin-bottom: 22px;
@@ -145,7 +146,12 @@
         margin-bottom: 45px;
         margin-left: 15px;
     }
-    .catalogue img{
-        width: 80%;
+
+    article.catalogue {
+        display: block;
+          }
+    .catalogue .content {
+       margin-bottom: 20px;
     }
+
 }

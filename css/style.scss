@@ -84,7 +84,7 @@ $main_font:'Roboto', sans-serif;
 }
 
 .our_guides p {
-  color: #000;
+  color: $black_color;
   font: 400 20px/normal $main_font;
   margin-bottom: 47px;
 }
