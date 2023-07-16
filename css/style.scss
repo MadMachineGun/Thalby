@@ -1,4 +1,18 @@
+$black_color:#000;
+$white_color:white;
+$main_font:'Roboto', sans-serif;
+@import "header";
+@import "main";
+@import "footer";
+@import "media.css";
+* {
+  padding: 0;
+  margin: 0; }
 
+.container{
+  max-width: 1064px;
+  margin: auto;
+}
 .fall_section {
   background: #F0EFEB;
   display: flex;
@@ -7,8 +21,6 @@
 }
 
 .fall_section .container {
-  max-width: 1064px;
-  margin: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -20,28 +32,28 @@
 }
 
 .fall_section article h1 {
-  font: 700 60px/normal 'Roboto', sans-serif;
-  color: #000;
+  font: 700 60px/normal $main_font;
+  color: $black_color;
   margin-bottom: 42px;
   margin-top: 90px;
   max-width: 535px;
 }
 
 .fall_section article p {
-  font: 400 24px/normal 'Roboto', sans-serif;
-  color: #000;
+  font: 400 24px/normal $main_font;
+  color: $black_color;
   margin-bottom: 26px;
 }
 
 .fall_section article a {
-  font: 400 17px/normal 'Roboto', sans-serif;
+  font: 400 17px/normal $main_font;
   color: #FFF;
   display: inline-flex;
   text-align: center;
   text-decoration: none;
   border-radius: 100px;
-  border: 1px solid #000;
-  background: #000;
+  border: 1px solid $black_color;
+  background: $black_color;
   padding: 7px 23px 9px 23px;
   margin-bottom: 90px;
 }
@@ -61,30 +73,33 @@
 }
 
 .our_guides .container {
-  max-width: 1064px;
   text-align: center;
 }
 
 .our_guides h2 {
-  color: #000;
-  font: 700 36px/normal 'Roboto', sans-serif;
+  color: $black_color;
+  font: 700 36px/normal $main_font;
   margin-bottom: 27px;
+  padding-top: 60px;
 }
 
 .our_guides p {
   color: #000;
-  font: 400 20px/normal 'Roboto', sans-serif;
+  font: 400 20px/normal $main_font;
   margin-bottom: 47px;
 }
 
 .our_guides h4 {
-  color: #000;
-  font: 400 20px/normal 'Roboto', sans-serif;
+  color: $black_color;
+  font: 400 20px/normal $main_font;
   margin-bottom: 87px;
 }
 
-.our_guides h2 {
+.our_guides h3{
+  color: $black_color;
+  font: 700 36px/normal $main_font;
   margin-bottom: 52px;
+
 }
 
 .catalogue {
@@ -104,22 +119,22 @@
 }
 
 .catalogue h4 {
-  font: 700 17px/normal 'Roboto', sans-serif;
-  color: #000;
+  font: 700 17px/normal $main_font;
+  color: $black_color;
   margin-bottom: 10px;
   padding: 0 100px;
 
 }
 
 .catalogue p {
-  font: 400 17px/normal 'Roboto', sans-serif;
-  color: #000;
+  font: 400 17px/normal $main_font;
+  color: $black_color;
   margin-bottom: 10px;
 }
 
 .catalogue a {
-  font: 700 17px/normal 'Roboto', sans-serif;
-  color: #000;
+  font: 700 17px/normal $main_font;
+  color: $black_color;
   text-decoration-line: underline;
 }
 

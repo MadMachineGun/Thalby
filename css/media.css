@@ -100,10 +100,6 @@
         transition: all 900ms cubic-bezier(.9, 0, .33, 1);
     }
 
-    /*nav .nav-links .link {*/
-    /*    background: #F0EFEB;*/
-    /*}*/
-
     nav .nav-links.fade-in {
         opacity: 1;
         transform: translateX(0px);
@@ -148,5 +144,8 @@
         font: 400 12px/normal 'Roboto', sans-serif;
         margin-bottom: 45px;
         margin-left: 15px;
+    }
+    .catalogue img{
+        width: 80%;
     }
 }
