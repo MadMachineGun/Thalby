@@ -140,7 +140,6 @@ nav .nav-links .link {
 .our_guides h2 {
     color: #000;
     font: 700 36px/normal 'Roboto', sans-serif;
-    padding-top: 60px;
     margin-bottom: 27px;
 }
 
@@ -148,7 +147,6 @@ nav .nav-links .link {
     color: #000;
     font: 400 20px/normal 'Roboto', sans-serif;
     margin-bottom: 47px;
-    max-width: 725px;
 }
 
 .our_guides h4 {
@@ -157,64 +155,41 @@ nav .nav-links .link {
     margin-bottom: 87px;
 }
 
-.best_sellers {
-    background: #FFF;
+.our_guides h2 {
+    margin-bottom: 52px;
 }
 
-.best_sellers .container {
-    max-width: 1064px;
+.catalogue {
     margin: auto;
     display: flex;
-    flex-direction: column;
     align-items: center;
+    margin-bottom: 248px;
 }
 
-.container h2 {
-    font: 700 36px/normal 'Roboto', sans-serif;
-    color: #000;
-    text-align: center;
-}
-
-.container .catalogue {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 63px;
-    padding-top: 52px;
-    padding-bottom: 51px;
-}
-
-.best_sellers article {
-    display: flex;
-    max-width: 315px;
+.catalogue img {
     margin-bottom: 20px;
 }
 
-.best_sellers .image {
-    max-width: 50%;
-    height: auto;
-}
-
-.catalogue .content {
+.catalogue article {
+    display: flex;
     max-width: 315px;
-    align-items: center;
-    text-align: center;
-    padding: 20px 79px 0 79px;
 }
 
-.content h4 {
+.catalogue h4 {
     font: 700 17px/normal 'Roboto', sans-serif;
     color: #000;
     margin-bottom: 10px;
+    padding: 0 100px;
+
 }
 
-.content p {
+.catalogue p {
     font: 400 17px/normal 'Roboto', sans-serif;
     color: #000;
     margin-bottom: 10px;
 }
 
-.content a {
+.catalogue a {
     font: 700 17px/normal 'Roboto', sans-serif;
     color: #000;
     text-decoration-line: underline;
