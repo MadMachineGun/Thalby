@@ -128,30 +128,4 @@
         color: #222;
     }
 
-    .fall_section article h1 {
-        font: 700 30px/normal 'Roboto', sans-serif;
-        margin-bottom: 22px;
-        padding-top: 160px;
-        padding-left: 15px;
-    }
-
-    .fall_section article p {
-        font: 400 18px/normal 'Roboto', sans-serif;
-        margin-bottom: 13px;
-        padding-left: 15px;
-    }
-
-    .fall_section article a {
-        font: 400 12px/normal 'Roboto', sans-serif;
-        margin-bottom: 45px;
-        margin-left: 15px;
-    }
-
-    article.catalogue {
-        display: block;
-          }
-    .catalogue .content {
-       margin-bottom: 20px;
-    }
-
 }

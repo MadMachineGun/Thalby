@@ -1,56 +1,72 @@
-
 .fall_section {
   background: #F0EFEB;
   display: flex;
   margin: auto;
   align-items: center;
-}
 
-.fall_section .container {
-  max-width: 1064px;
-  margin: auto;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-.fall_section article {
-  align-items: flex-start;
-  flex-direction: column;
-}
+    article {
+      align-items: flex-start;
+      flex-direction: column;
 
-.fall_section article h1 {
-  font: 700 60px/normal 'Roboto', sans-serif;
-  color: #000;
-  margin-bottom: 42px;
-  margin-top: 90px;
-  max-width: 535px;
-}
+      h1 {
+        font: 700 60px/normal $main_font;
+        color: $black_color;
+        margin-bottom: 42px;
+        margin-top: 90px;
+        max-width: 535px;
+        @include max-screen(768px) {
+          font: 700 40px/normal $main_font;
+          margin-bottom: 22px;
+          padding-top: 160px;
+          padding-left: 15px;
+        }
+      }
 
-.fall_section article p {
-  font: 400 24px/normal 'Roboto', sans-serif;
-  color: #000;
-  margin-bottom: 26px;
-}
+      p {
+        font: 400 24px/normal $main_font;
+        color: $black_color;
+        margin-bottom: 26px;
+        @include max-screen(768px) {
+          font: 400 18px/normal $main_font;
+          margin-bottom: 13px;
+          padding-left: 15px;
+        }
+      }
 
-.fall_section article a {
-  font: 400 17px/normal 'Roboto', sans-serif;
-  color: #FFF;
-  display: inline-flex;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 100px;
-  border: 1px solid #000;
-  background: #000;
-  padding: 7px 23px 9px 23px;
-  margin-bottom: 90px;
-}
+      a {
+        font: 400 17px/normal $main_font;
+        color: #FFF;
+        display: inline-flex;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 100px;
+        border: 1px solid $black_color;
+        background: $black_color;
+        padding: 7px 23px 9px 23px;
+        margin-bottom: 90px;
+        @include max-screen(768px) {
+          font: 400 16px/normal $main_font;
+          margin-bottom: 45px;
+          margin-left: 15px;
+        }
+      }
+    }
 
-.fall_img {
-  max-height: 100%;
-  max-width: 599px;
-  position: relative;
-  right: -100px;
+    .fall_img {
+      max-height: 100%;
+      max-width: 599px;
+      position: relative;
+      right: -100px;
+      @include max-screen(768px) {
+        right: 0;
+      }
+    }
+  }
 }
 
 .our_guides {
@@ -58,68 +74,76 @@
   display: flex;
   align-items: center;
   justify-content: center;
+
+  .container {
+    text-align: center;
+
+    h2 {
+      color: $black_color;
+      font: 700 36px/normal $main_font;
+      margin-bottom: 27px;
+      padding-top: 60px;
+    }
+
+    p {
+      color: $black_color;
+      font: 400 20px/normal $main_font;
+      margin-bottom: 47px;
+    }
+
+    h4 {
+      color: $black_color;
+      font: 400 20px/normal $main_font;
+      margin-bottom: 87px;
+    }
+
+    h3 {
+      color: $black_color;
+      font: 700 36px/normal $main_font;
+      margin-bottom: 52px;
+    }
+
+    .catalogue {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      margin-bottom: 248px;
+      @include max-screen(768px) {
+        display: block;
+      }
+      .content {
+        @include max-screen(768px) {
+          margin-bottom: 20px;
+        }
+      }
+
+      img {
+        margin-bottom: 20px;
+      }
+
+      article {
+        display: flex;
+        max-width: 315px;
+      }
+
+      h4 {
+        font: 700 17px/normal $main_font;
+        color: $black_color;
+        margin-bottom: 10px;
+        padding: 0 100px;
+      }
+
+      p {
+        font: 400 17px/normal $main_font;
+        color: $black_color;
+        margin-bottom: 10px;
+      }
+
+      a {
+        font: 700 17px/normal $main_font;
+        color: $black_color;
+        text-decoration-line: underline;
+      }
+    }
+  }
 }
-
-.our_guides .container {
-  max-width: 1064px;
-  text-align: center;
-}
-
-.our_guides h2 {
-  color: #000;
-  font: 700 36px/normal 'Roboto', sans-serif;
-  margin-bottom: 27px;
-}
-
-.our_guides p {
-  color: #000;
-  font: 400 20px/normal 'Roboto', sans-serif;
-  margin-bottom: 47px;
-}
-
-.our_guides h4 {
-  color: #000;
-  font: 400 20px/normal 'Roboto', sans-serif;
-  margin-bottom: 87px;
-}
-
-.our_guides h2 {
-  margin-bottom: 52px;
-}
-
-.catalogue {
-  margin: auto;
-  display: flex;
-  align-items: center;
-  margin-bottom: 248px;
-}
-
-.catalogue img {
-  margin-bottom: 20px;
-}
-
-.catalogue article {
-  display: flex;
-  max-width: 315px;
-}
-
-.catalogue h4 {
-  font: 700 17px/normal 'Roboto', sans-serif;
-  color: #000;
-  margin-bottom: 10px;
-  padding: 0 100px;
-
-}
-
-.catalogue p {
-  font: 400 17px/normal 'Roboto', sans-serif;
-  color: #000;
-  margin-bottom: 10px;
-}
-
-.catalogue a {
-  font: 700 17px/normal 'Roboto', sans-serif;
-  color: #000;
-  text-decoration-line: underline;
-}
-
