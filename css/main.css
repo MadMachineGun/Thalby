@@ -9,7 +9,8 @@
   margin: auto;
   display: flex;
   justify-content: space-between;
-  align-items: center; }
+  /*align-items: center; */
+}
 
 .fall_section article {
   align-items: flex-start;
