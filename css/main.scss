@@ -110,6 +110,7 @@
       @include max-screen(768px) {
         display: block;
       }
+
       .content {
         @include max-screen(768px) {
           margin-bottom: 20px;
