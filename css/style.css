@@ -91,21 +91,7 @@ header {
             align-items: center;
             transform: translateX(0px);
             padding-left: 0;
-            white-space: nowrap; } }
-      @media screen and (max-width: 768px) and (max-width: 768px) {
-        header nav .menu-btn .line ul .nav-links {
-          padding-left: 20px;
-          position: relative;
-          left: 0;
-          top: 0;
-          width: 100%;
-          height: 100%;
-          display: flex;
-          flex-direction: column;
-          transform: translateX(-100px);
-          opacity: 0;
-          transition: all 900ms cubic-bezier(0.9, 0, 0.33, 1); } }
-    @media screen and (max-width: 768px) {
+            white-space: nowrap; }
             header nav .menu-btn .line ul .nav-links .fade-in {
               opacity: 1;
               transform: translateX(0px); }
