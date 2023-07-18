@@ -7,6 +7,9 @@ header {
     height: 56px;
     display: flex;
     justify-content: space-between; }
+    header .container .logo {
+      position: absolute;
+      left: calc(50% - 40px); }
     header .container ul {
       display: flex;
       list-style: none;
@@ -16,97 +19,29 @@ header {
         header .container ul li:first-of-type:last-of-type {
           margin-left: 7px;
           margin-right: 15px; }
-  header .logo {
-    position: absolute;
-    left: calc(50% - 40px); }
-  header nav {
-    transform: translateX(0);
-    width: 395px; }
-    @media screen and (max-width: 768px) {
-      header nav {
-        position: relative;
-        transform: translateX(-140px);
-        height: 100%;
-        width: 150px;
-        transition: all 800ms cubic-bezier(0.8, 0, 0.33, 1);
-        border-radius: 0% 0% 100% 50%; } }
-    @media screen and (max-width: 768px) {
-      header nav .menu-btn {
-        display: inline-block;
-        position: absolute;
-        top: 10%;
-        right: -20%;
-        padding: 0;
-        width: 30px;
-        cursor: pointer;
-        z-index: 2; } }
-    @media screen and (max-width: 768px) {
-      header nav .menu-btn .line {
-        padding: 0;
-        width: 30px;
-        background: black;
-        height: 2px;
-        margin: 5px 0;
-        transition: all 700ms cubic-bezier(0.9, 0, 0.33, 1); }
-        header nav .menu-btn .line .line--1 {
-          width: 30px;
-          transform: rotate(0) translateY(0); }
-        header nav .menu-btn .line .line--1.line-cross {
-          width: 30px;
-          transform: rotate(45deg) translateY(10px);
-          background: rgba(0, 0, 0, 0.6); }
-        header nav .menu-btn .line .line--2 {
-          width: 28px;
-          transform: translateX(0); }
-        header nav .menu-btn .line .line--2.line-fade-out {
-          width: 28px;
-          transform: translate(30px);
-          opacity: 0; }
-        header nav .menu-btn .line .line--3 {
-          width: 20px;
-          transform: rotate(0) translateY(0); }
-        header nav .menu-btn .line .line--3.line-cross {
-          width: 30px;
-          transform: rotate(-45deg) translateY(-10px);
-          background: rgba(0, 0, 0, 0.6); }
-        header nav .menu-btn .line ul {
-          display: flex; }
-          header nav .menu-btn .line ul li {
-            list-style: none;
-            margin-right: 28px; }
-            header nav .menu-btn .line ul li a {
-              font: 700 16px/26px "Roboto", sans-serif;
-              color: #1C1B1B;
-              text-decoration: none; } }
-        @media screen and (max-width: 768px) and (max-width: 768px) {
-          header nav .menu-btn .line ul li a {
-            margin: 0 20px;
-            color: #fff;
-            font-size: 2rem;
-            transition: all 400ms ease; } }
-    @media screen and (max-width: 768px) {
-          header nav .menu-btn .line ul .nav-links {
-            opacity: 1;
-            flex-direction: row;
-            align-items: center;
-            transform: translateX(0px);
-            padding-left: 0;
-            white-space: nowrap; }
-            header nav .menu-btn .line ul .nav-links .fade-in {
-              opacity: 1;
-              transform: translateX(0px); }
-            header nav .menu-btn .line ul .nav-links .link {
-              margin-right: 28px; } }
-        @media screen and (max-width: 768px) and (max-width: 768px) {
-          header nav .menu-btn .line ul .nav-links .link {
-            margin: 20px 0;
-            text-decoration: none;
-            font: 700 16px/26px 'Roboto', sans-serif;
-            color: rgba(0, 0, 0, 0.9);
-            transition: all 300ms cubic-bezier(0.9, 0, 0.33, 1); } }
-    @media screen and (max-width: 768px) {
-              header nav .menu-btn .line ul .nav-links .link .link:hover {
-                color: rgba(0, 0, 0, 0.5); } }
+
+nav {
+  transform: translateX(0);
+  width: 395px; }
+  nav ul {
+    display: flex; }
+    nav ul li {
+      list-style: none;
+      margin-right: 28px; }
+      nav ul li a {
+        font: 700 16px/26px "Roboto", sans-serif;
+        color: #1C1B1B;
+        text-decoration: none; }
+
+nav .nav-links {
+  opacity: 1;
+  flex-direction: row;
+  align-items: center;
+  transform: translateX(0px);
+  padding-left: 0;
+  white-space: nowrap; }
+  nav .nav-links .link {
+    margin-right: 28px; }
 
 .fall_section {
   background: #F0EFEB;
