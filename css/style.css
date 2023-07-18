@@ -305,8 +305,7 @@ nav {
         margin-bottom: 40px; }
         @media screen and (max-width: 768px) {
           .culture_and_heritage .container .culture p {
-            font: 400 26px/normal "Roboto", sans-serif;
-            padding-right: 20px; } }
+            font: 400 26px/normal "Roboto", sans-serif; } }
       .culture_and_heritage .container .culture a {
         font: 700 17px/normal "Roboto", sans-serif;
         color: #000;
@@ -315,7 +314,7 @@ nav {
       width: 385px; }
       @media screen and (max-width: 768px) {
         .culture_and_heritage .container .moroccan_culture_image {
-          padding-left: 20px; } }
+          padding-right: 20px; } }
       .culture_and_heritage .container .moroccan_culture_image img {
         width: 100%;
         display: block; }

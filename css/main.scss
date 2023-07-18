@@ -204,7 +204,6 @@
 
   .container {
     display: flex;
-    //flex-direction: row-reverse;
 
     .culture {
       width: 500px;
@@ -225,7 +224,6 @@
         margin-bottom: 40px;
         @include max-screen(768px) {
           font: 400 26px/normal $main_font;
-          padding-right: 20px;
         }
       }
         a {
@@ -238,7 +236,7 @@
       .moroccan_culture_image {
         width: 385px;
         @include max-screen(768px) {
-          padding-left: 20px;
+          padding-right: 20px;
         }
         img {
           width: 100%;
