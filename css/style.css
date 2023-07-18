@@ -354,6 +354,44 @@ nav {
       color: #000;
       text-decoration-line: underline; }
 
+.some_of_the_features {
+  background: #fff; }
+  .some_of_the_features .container h4 {
+    font: 400 36px/normal "Roboto", sans-serif;
+    color: #000;
+    padding-top: 190px;
+    margin-bottom: 69px;
+    text-align: center; }
+  .some_of_the_features .container .point {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: center; }
+    .some_of_the_features .container .point .circle {
+      width: 33%;
+      font: 700 30px/normal "Roboto", sans-serif;
+      color: #000;
+      margin-bottom: 111px; }
+      .some_of_the_features .container .point .circle:before {
+        content: "";
+        display: block;
+        margin: auto;
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        background: #21F7EC;
+        margin-bottom: 26px; }
+      .some_of_the_features .container .point .circle:nth-child(2):before {
+        background: #33D3BC; }
+      .some_of_the_features .container .point .circle:nth-child(3):before {
+        background: #18A5C6; }
+      .some_of_the_features .container .point .circle:nth-child(4):before {
+        background: #D38F62; }
+      .some_of_the_features .container .point .circle:nth-child(5):before {
+        background: #F94C43; }
+      .some_of_the_features .container .point .circle:last-child:before {
+        background: #D399FF; }
+
 * {
   padding: 0;
   margin: 0; }
