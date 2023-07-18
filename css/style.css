@@ -392,6 +392,10 @@ nav {
       .some_of_the_features .container .point .circle:last-child:before {
         background: #D399FF; }
 
+.thalby_guide {
+  background: #F0F0F0;
+  padding: 51px 0; }
+
 * {
   padding: 0;
   margin: 0; }

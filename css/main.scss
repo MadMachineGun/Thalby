@@ -158,8 +158,8 @@
 
     .french_people_image {
       width: 385px;
-      @include max-screen(768px){
-       padding-left: 20px;
+      @include max-screen(768px) {
+        padding-left: 20px;
       }
 
       img {
@@ -185,7 +185,7 @@
       font: 400 36px/normal $main_font;
       color: $black_color;
       margin-bottom: 40px;
-      @include max-screen(768px){
+      @include max-screen(768px) {
         font: 400 26px/normal $main_font;
         padding-right: 20px;
       }
@@ -198,6 +198,7 @@
     }
   }
 }
+
 .culture_and_heritage {
   background: rgba(204, 204, 204, 0.60);
   padding: 76px 0 51px 0;
@@ -226,25 +227,28 @@
           font: 400 26px/normal $main_font;
         }
       }
-        a {
-          font: 700 17px/normal $main_font;
-          color: $black_color;
-          text-decoration-line: underline;
-        }
+
+      a {
+        font: 700 17px/normal $main_font;
+        color: $black_color;
+        text-decoration-line: underline;
+      }
+    }
+
+    .moroccan_culture_image {
+      width: 385px;
+      @include max-screen(768px) {
+        padding-right: 20px;
       }
 
-      .moroccan_culture_image {
-        width: 385px;
-        @include max-screen(768px) {
-          padding-right: 20px;
-        }
-        img {
-          width: 100%;
-          display: block;
-        }
+      img {
+        width: 100%;
+        display: block;
       }
     }
   }
+}
+
 .power_and_politics {
   background: rgba(204, 204, 204, 0.30);
   padding: 76px 0 51px 0;
@@ -254,7 +258,7 @@
 
     .german_power_image {
       width: 385px;
-      @include max-screen(768px){
+      @include max-screen(768px) {
         padding-left: 20px;
       }
 
@@ -281,7 +285,7 @@
       font: 400 36px/normal $main_font;
       color: $black_color;
       margin-bottom: 40px;
-      @include max-screen(768px){
+      @include max-screen(768px) {
         font: 400 26px/normal $main_font;
         padding-right: 20px;
       }
@@ -295,28 +299,31 @@
   }
 }
 
-.some_of_the_features{
+.some_of_the_features {
   background: $white_color;
-  .container{
-    //display: flex;
-    h4{
+
+  .container {
+    h4 {
       font: 400 36px/normal $main_font;
       color: $black_color;
       padding-top: 190px;
       margin-bottom: 69px;
       text-align: center;
     }
-    .point{
+
+    .point {
       display: flex;
       flex-wrap: wrap;
       justify-content: space-between;
       text-align: center;
-      .circle{
+
+      .circle {
         width: 33%;
         font: 700 30px/normal $main_font;
         color: $black_color;
         margin-bottom: 111px;
-        &:before{
+
+        &:before {
           content: "";
           display: block;
           margin: auto;
@@ -326,22 +333,32 @@
           background: #21F7EC;
           margin-bottom: 26px;
         }
-        &:nth-child(2):before{
+
+        &:nth-child(2):before {
           background: #33D3BC;
         }
-        &:nth-child(3):before{
+
+        &:nth-child(3):before {
           background: #18A5C6;
         }
-        &:nth-child(4):before{
+
+        &:nth-child(4):before {
           background: #D38F62;
         }
-        &:nth-child(5):before{
+
+        &:nth-child(5):before {
           background: #F94C43;
         }
-        &:last-child:before{
+
+        &:last-child:before {
           background: #D399FF;
         }
       }
     }
   }
+}
+
+.thalby_guide {
+  background: #F0F0F0;
+  padding: 51px 0;
 }
