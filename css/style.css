@@ -249,6 +249,34 @@ nav {
         color: #000;
         text-decoration-line: underline; }
 
+.people_and_society {
+  background: rgba(204, 204, 204, 0.3);
+  padding: 76px 0 51px 0; }
+  .people_and_society .container {
+    display: flex; }
+    .people_and_society .container .french_people_image {
+      width: 385px; }
+      .people_and_society .container .french_people_image img {
+        width: 100%;
+        display: block; }
+  .people_and_society .people {
+    width: 500px;
+    display: block;
+    align-items: center;
+    margin-left: 50px; }
+    .people_and_society .people h2 {
+      font: 700 36px/normal "Roboto", sans-serif;
+      color: #000;
+      margin-bottom: 31px; }
+    .people_and_society .people p {
+      font: 400 36px/normal "Roboto", sans-serif;
+      color: #000;
+      margin-bottom: 40px; }
+    .people_and_society .people a {
+      font: 700 17px/normal "Roboto", sans-serif;
+      color: #000;
+      text-decoration-line: underline; }
+
 * {
   padding: 0;
   margin: 0; }
