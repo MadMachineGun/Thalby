@@ -17,12 +17,13 @@
         color: $black_color;
         margin-bottom: 42px;
         margin-top: 90px;
-        max-width: 535px;
+        width: 540px;
         @include max-screen(768px) {
           font: 700 40px/normal $main_font;
           margin-bottom: 22px;
           padding-top: 160px;
           padding-left: 15px;
+          max-width: 250px;
         }
       }
 
