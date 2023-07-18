@@ -256,6 +256,9 @@ nav {
     display: flex; }
     .people_and_society .container .french_people_image {
       width: 385px; }
+      @media screen and (max-width: 768px) {
+        .people_and_society .container .french_people_image {
+          padding-left: 20px; } }
       .people_and_society .container .french_people_image img {
         width: 100%;
         display: block; }
@@ -272,10 +275,50 @@ nav {
       font: 400 36px/normal "Roboto", sans-serif;
       color: #000;
       margin-bottom: 40px; }
+      @media screen and (max-width: 768px) {
+        .people_and_society .people p {
+          font: 400 26px/normal "Roboto", sans-serif;
+          padding-right: 20px; } }
     .people_and_society .people a {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
       text-decoration-line: underline; }
+
+.culture_and_heritage {
+  background: rgba(204, 204, 204, 0.6);
+  padding: 76px 0 51px 0; }
+  .culture_and_heritage .container {
+    display: flex; }
+    .culture_and_heritage .container .culture {
+      width: 500px;
+      display: block;
+      align-items: start;
+      text-align: right;
+      margin-right: 50px; }
+      .culture_and_heritage .container .culture h2 {
+        font: 700 36px/normal "Roboto", sans-serif;
+        color: #000;
+        margin-bottom: 31px; }
+      .culture_and_heritage .container .culture p {
+        font: 400 36px/normal "Roboto", sans-serif;
+        color: #000;
+        margin-bottom: 40px; }
+        @media screen and (max-width: 768px) {
+          .culture_and_heritage .container .culture p {
+            font: 400 26px/normal "Roboto", sans-serif;
+            padding-right: 20px; } }
+      .culture_and_heritage .container .culture a {
+        font: 700 17px/normal "Roboto", sans-serif;
+        color: #000;
+        text-decoration-line: underline; }
+    .culture_and_heritage .container .moroccan_culture_image {
+      width: 385px; }
+      @media screen and (max-width: 768px) {
+        .culture_and_heritage .container .moroccan_culture_image {
+          padding-left: 20px; } }
+      .culture_and_heritage .container .moroccan_culture_image img {
+        width: 100%;
+        display: block; }
 
 * {
   padding: 0;
