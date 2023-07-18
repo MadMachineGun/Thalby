@@ -319,6 +319,41 @@ nav {
         width: 100%;
         display: block; }
 
+.power_and_politics {
+  background: rgba(204, 204, 204, 0.3);
+  padding: 76px 0 51px 0; }
+  .power_and_politics .container {
+    display: flex; }
+    .power_and_politics .container .german_power_image {
+      width: 385px; }
+      @media screen and (max-width: 768px) {
+        .power_and_politics .container .german_power_image {
+          padding-left: 20px; } }
+      .power_and_politics .container .german_power_image img {
+        width: 100%;
+        display: block; }
+  .power_and_politics .power {
+    width: 500px;
+    display: block;
+    align-items: center;
+    margin-left: 50px; }
+    .power_and_politics .power h2 {
+      font: 700 36px/normal "Roboto", sans-serif;
+      color: #000;
+      margin-bottom: 31px; }
+    .power_and_politics .power p {
+      font: 400 36px/normal "Roboto", sans-serif;
+      color: #000;
+      margin-bottom: 40px; }
+      @media screen and (max-width: 768px) {
+        .power_and_politics .power p {
+          font: 400 26px/normal "Roboto", sans-serif;
+          padding-right: 20px; } }
+    .power_and_politics .power a {
+      font: 700 17px/normal "Roboto", sans-serif;
+      color: #000;
+      text-decoration-line: underline; }
+
 * {
   padding: 0;
   margin: 0; }

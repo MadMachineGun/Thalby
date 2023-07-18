@@ -245,5 +245,53 @@
       }
     }
   }
+.power_and_politics {
+  background: rgba(204, 204, 204, 0.30);
+  padding: 76px 0 51px 0;
 
+  .container {
+    display: flex;
+
+    .german_power_image {
+      width: 385px;
+      @include max-screen(768px){
+        padding-left: 20px;
+      }
+
+      img {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+
+  .power {
+    width: 500px;
+    display: block;
+    align-items: center;
+    margin-left: 50px;
+
+    h2 {
+      font: 700 36px/normal $main_font;
+      color: $black_color;
+      margin-bottom: 31px;
+    }
+
+    p {
+      font: 400 36px/normal $main_font;
+      color: $black_color;
+      margin-bottom: 40px;
+      @include max-screen(768px){
+        font: 400 26px/normal $main_font;
+        padding-right: 20px;
+      }
+    }
+
+    a {
+      font: 700 17px/normal $main_font;
+      color: $black_color;
+      text-decoration-line: underline;
+    }
+  }
+}
 
