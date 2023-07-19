@@ -394,7 +394,46 @@ nav {
 
 .thalby_guide {
   background: #F0F0F0;
-  padding: 51px 0; }
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+  .thalby_guide .container {
+    text-align: center; }
+    .thalby_guide .container h3 {
+      color: #000;
+      font: 700 36px/normal "Roboto", sans-serif;
+      margin-bottom: 102px;
+      padding-top: 60px; }
+    .thalby_guide .container .discover {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      margin-bottom: 248px; }
+      @media screen and (max-width: 768px) {
+        .thalby_guide .container .discover {
+          display: block; } }
+      .thalby_guide .container .discover .content {
+        max-width: 288px;
+        margin-right: 100px; }
+        @media screen and (max-width: 768px) {
+          .thalby_guide .container .discover .content {
+            margin-bottom: 20px; } }
+      .thalby_guide .container .discover img {
+        margin-bottom: 35px; }
+      .thalby_guide .container .discover h4 {
+        font: 700 22px/normal "Roboto", sans-serif;
+        color: #000;
+        margin-bottom: 40px;
+        padding: 0 20px; }
+      .thalby_guide .container .discover p {
+        font: 400 19px/normal "Roboto", sans-serif;
+        color: #000;
+        margin-bottom: 44px; }
+      .thalby_guide .container .discover a {
+        font: 700 18px/normal "Roboto", sans-serif;
+        color: #000;
+        text-decoration-line: underline; }
 
 * {
   padding: 0;

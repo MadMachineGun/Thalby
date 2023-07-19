@@ -360,5 +360,62 @@
 
 .thalby_guide {
   background: #F0F0F0;
-  padding: 51px 0;
+  padding: 60px 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .container {
+    text-align: center;
+
+    h3 {
+      color: $black_color;
+      font: 700 36px/normal $main_font;
+      margin-bottom: 102px;
+      padding-top: 60px;
+    }
+
+    .discover {
+      margin: auto;
+      display: flex;
+      align-items: center;
+      margin-bottom: 248px;
+      @include max-screen(768px) {
+        display: block;
+      }
+
+      .content {
+        max-width: 288px;
+        margin-right: 100px;
+        @include max-screen(768px) {
+          margin-bottom: 20px;
+        }
+      }
+
+      img {
+        margin-bottom: 35px;
+      }
+
+      h4 {
+        font: 700 22px/normal $main_font;
+        color: $black_color;
+        margin-bottom: 40px;
+   padding: 0 20px;
+      }
+
+      p {
+        font: 400 19px/normal $main_font;
+        color: $black_color;
+        margin-bottom: 44px;
+      }
+
+      a {
+        font: 700 18px/normal $main_font;
+        color: $black_color;
+        text-decoration-line: underline;
+      }
+    }
+  }
+
+
 }
