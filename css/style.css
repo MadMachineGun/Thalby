@@ -393,39 +393,43 @@ nav {
         background: #D399FF; }
 
 .thalby_guide {
-  background: #F0F0F0;
-  padding: 60px 0;
+  background: linear-gradient(to bottom, #fff 50%, #F0F0F0 50%);
   display: flex;
   align-items: center;
   justify-content: center; }
+  @media screen and (max-width: 768px) {
+    .thalby_guide {
+      background: linear-gradient(to bottom, #fff 50%, #F0F0F0 50%); } }
   .thalby_guide .container {
     text-align: center; }
     .thalby_guide .container h3 {
       color: #000;
       font: 700 36px/normal "Roboto", sans-serif;
       margin-bottom: 102px;
-      padding-top: 60px; }
+      padding-top: 52px; }
     .thalby_guide .container .discover {
       margin: auto;
       display: flex;
-      align-items: center;
-      margin-bottom: 248px; }
+      align-items: center; }
       @media screen and (max-width: 768px) {
         .thalby_guide .container .discover {
           display: block; } }
       .thalby_guide .container .discover .content {
-        max-width: 288px;
-        margin-right: 100px; }
+        max-width: 360px;
+        margin-bottom: 52px; }
         @media screen and (max-width: 768px) {
           .thalby_guide .container .discover .content {
-            margin-bottom: 20px; } }
+            margin-bottom: 20px;
+            display: block;
+            max-width: 720px; } }
       .thalby_guide .container .discover img {
-        margin-bottom: 35px; }
+        margin-bottom: 35px;
+        max-width: 100%; }
       .thalby_guide .container .discover h4 {
         font: 700 22px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 40px;
-        padding: 0 20px; }
+        padding: 0 50px; }
       .thalby_guide .container .discover p {
         font: 400 19px/normal "Roboto", sans-serif;
         color: #000;

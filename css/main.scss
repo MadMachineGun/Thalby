@@ -115,7 +115,7 @@
       .content {
         @include max-screen(768px) {
           margin-bottom: 20px;
-        }
+                }
       }
 
       img {
@@ -359,11 +359,14 @@
 }
 
 .thalby_guide {
-  background: #F0F0F0;
-  padding: 60px 0;
+  background: linear-gradient(to bottom, $white_color 50%, #F0F0F0 50%);
   display: flex;
   align-items: center;
   justify-content: center;
+  @include max-screen(768px){
+    background: linear-gradient(to bottom, $white_color 50%, #F0F0F0 50%);
+
+  }
 
   .container {
     text-align: center;
@@ -372,35 +375,38 @@
       color: $black_color;
       font: 700 36px/normal $main_font;
       margin-bottom: 102px;
-      padding-top: 60px;
+      padding-top: 52px;
     }
 
     .discover {
       margin: auto;
       display: flex;
       align-items: center;
-      margin-bottom: 248px;
       @include max-screen(768px) {
         display: block;
       }
 
       .content {
-        max-width: 288px;
-        margin-right: 100px;
+        max-width: 360px;
+        margin-bottom: 52px;
         @include max-screen(768px) {
           margin-bottom: 20px;
-        }
+          display: block;
+          max-width: 720px;
+              }
       }
 
       img {
         margin-bottom: 35px;
-      }
+        max-width: 100%;
+            }
 
       h4 {
         font: 700 22px/normal $main_font;
         color: $black_color;
         margin-bottom: 40px;
-   padding: 0 20px;
+        padding: 0 50px;
+
       }
 
       p {
@@ -413,9 +419,8 @@
         font: 700 18px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+
       }
     }
   }
-
-
 }
