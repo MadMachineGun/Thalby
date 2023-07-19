@@ -455,11 +455,12 @@ nav {
       margin-bottom: 25px;
       text-align: center; }
     .subscribe .container form {
-      margin: 0 auto; }
+      margin: 0 auto;
+      max-width: 370px; }
     .subscribe .container .form_fn,
     .subscribe .container .form_ln {
       display: inline-flex;
-      justify-content: space-between; }
+      max-width: 153px; }
     .subscribe .container .form_ln {
       margin-right: 60px; }
     .subscribe .container .form_email,
@@ -469,12 +470,8 @@ nav {
       margin-bottom: 18px; }
     .subscribe .container .form_fn,
     .subscribe .container .form_ln {
-      width: 153px;
-      height: 39px;
-      margin-right: 60px; }
-    .subscribe .container .form_email {
-      width: 366px;
-      height: 39px; }
+      margin-right: 60px;
+      margin-bottom: 18px; }
     .subscribe .container label {
       font: 400 14px/normal "Roboto", sans-serif;
       color: #A0A0A0;
