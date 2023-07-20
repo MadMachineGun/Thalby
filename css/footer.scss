@@ -1,0 +1,49 @@
+footer {
+  background-color: $black_color;
+  padding-top: 50px;
+
+
+  .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    p {
+      align-items: center;
+      margin-bottom: 16px;
+    }
+
+    .social {
+      max-width: 130px;
+      justify-content: space-between;
+
+      .logo img {
+        margin-bottom: 37px;
+      }
+
+      .facebook img, .instagram img {
+        margin-right: 20px;
+      }
+    }
+
+    .about_contact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+
+
+      li, a {
+        font: 400 14px/normal $main_font;
+        color: $white_color;
+        list-style-type: none;
+        text-decoration: none;
+      }
+    }
+    p {
+      font: 400 14px/normal $main_font;
+      color: $white_color;
+      list-style-type: none;
+      text-decoration: none;
+    }
+  }
+}
