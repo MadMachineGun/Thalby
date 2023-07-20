@@ -145,6 +145,9 @@ nav {
   .fall_section .container {
     display: flex;
     justify-content: space-between; }
+    @media screen and (max-width: 768px) {
+      .fall_section .container {
+        display: block; } }
     .fall_section .container article {
       align-items: flex-start;
       flex-direction: column; }
@@ -156,19 +159,17 @@ nav {
         width: 540px; }
         @media screen and (max-width: 768px) {
           .fall_section .container article h1 {
-            font: 700 40px/normal "Roboto", sans-serif;
             margin-bottom: 22px;
-            padding-top: 160px;
+            padding-top: 140px;
             padding-left: 15px;
-            max-width: 250px; } }
+            width: 100%; } }
       .fall_section .container article p {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 26px; }
         @media screen and (max-width: 768px) {
           .fall_section .container article p {
-            font: 400 18px/normal "Roboto", sans-serif;
-            margin-bottom: 13px;
+            margin-bottom: 15px;
             padding-left: 15px; } }
       .fall_section .container article a {
         font: 400 17px/normal "Roboto", sans-serif;
@@ -193,7 +194,7 @@ nav {
       right: -100px; }
       @media screen and (max-width: 768px) {
         .fall_section .container .fall_img {
-          right: 0; } }
+          right: -20px; } }
 
 .our_guides {
   background: white;
@@ -514,7 +515,11 @@ footer {
     padding-top: 50px;
     align-items: start; }
     footer .container .social {
+      margin-left: 70px;
       max-width: 130px; }
+      @media screen and (max-width: 768px) {
+        footer .container .social {
+          margin-left: 15px; } }
       footer .container .social .logo img {
         margin-bottom: 37px; }
       footer .container .social .facebook img, footer .container .social .instagram img {
