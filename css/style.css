@@ -495,6 +495,38 @@ nav {
       cursor: pointer;
       margin-bottom: 88px; }
 
+footer {
+  background-color: #000;
+  padding-top: 50px; }
+  footer .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+    footer .container p {
+      align-items: center;
+      margin-bottom: 16px; }
+    footer .container .social {
+      max-width: 130px;
+      justify-content: space-between; }
+      footer .container .social .logo img {
+        margin-bottom: 37px; }
+      footer .container .social .facebook img, footer .container .social .instagram img {
+        margin-right: 20px; }
+    footer .container .about_contact {
+      display: flex;
+      align-items: center;
+      justify-content: space-between; }
+      footer .container .about_contact li, footer .container .about_contact a {
+        font: 400 14px/normal "Roboto", sans-serif;
+        color: #fff;
+        list-style-type: none;
+        text-decoration: none; }
+    footer .container p {
+      font: 400 14px/normal "Roboto", sans-serif;
+      color: #fff;
+      list-style-type: none;
+      text-decoration: none; }
+
 * {
   padding: 0;
   margin: 0; }
