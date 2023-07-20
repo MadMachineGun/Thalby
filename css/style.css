@@ -498,6 +498,11 @@ nav {
 footer {
   background-color: #000;
   padding-top: 50px; }
+  footer p {
+    font: 400 14px/normal "Roboto", sans-serif;
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none; }
   footer .container {
     display: flex;
     align-items: center;
@@ -521,11 +526,6 @@ footer {
         color: #fff;
         list-style-type: none;
         text-decoration: none; }
-    footer .container p {
-      font: 400 14px/normal "Roboto", sans-serif;
-      color: #fff;
-      list-style-type: none;
-      text-decoration: none; }
 
 * {
   padding: 0;

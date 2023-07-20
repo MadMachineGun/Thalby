@@ -1,7 +1,12 @@
 footer {
   background-color: $black_color;
   padding-top: 50px;
-
+  p {
+    font: 400 14px/normal $main_font;
+    color: $white_color;
+    list-style-type: none;
+    text-decoration: none;
+  }
 
   .container {
     display: flex;
@@ -39,11 +44,6 @@ footer {
         text-decoration: none;
       }
     }
-    p {
-      font: 400 14px/normal $main_font;
-      color: $white_color;
-      list-style-type: none;
-      text-decoration: none;
-    }
+
   }
 }
