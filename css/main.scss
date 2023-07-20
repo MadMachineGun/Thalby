@@ -431,6 +431,7 @@
   align-items: center;
   justify-content: center;
 
+
   .container {
     display: flex;
     flex-direction: column;
@@ -455,51 +456,53 @@
       align-items: center;
       justify-content: center;
 
-      .login {
+      .name_input {
         display: flex;
         gap: 60px;
-        //justify-content: space-between;
       }
+
       .email {
         width: 366px;
         margin-bottom: 16px;
       }
+
       .fn, .ln, {
-        width: 153px;}
+        width: 153px;
+           }
 
-        label {
-          font: 400 14px/normal $main_font;
-          color: #A0A0A0;
-          padding: 12px 8px;
-        }
-
-        input {
-          width: 100%;
-          border: 1px solid $black_color;
-          padding: 12px 0 11px 8px;
-               }
-
-        &::placeholder {
-          color: transparent;
-          font: 400 14px/normal $main_font;
-        }
+      label {
+        font: 400 14px/normal $main_font;
+        color: #A0A0A0;
+        padding: 12px 8px;
       }
 
-      button {
-        width: 115px;
-        height: 33px;
-        border-radius: 20px;
-        background-color: $black_color;
-        color: $white_color;
-        text-align: center;
+      input {
+        width: 100%;
+        border: 1px solid $black_color;
+        padding: 12px 0 11px 8px;
+      }
+
+      &::placeholder {
+        color: transparent;
         font: 400 14px/normal $main_font;
-        padding: 7px 23px 10px;
-        border: none;
-        cursor: pointer;
-        margin-bottom: 88px;
       }
     }
+
+    button {
+      width: 115px;
+      height: 33px;
+      border-radius: 20px;
+      background-color: $black_color;
+      color: $white_color;
+      text-align: center;
+      font: 400 14px/normal $main_font;
+      padding: 7px 23px 10px;
+      border: none;
+      cursor: pointer;
+      margin-bottom: 88px;
+    }
   }
+}
 
 
 

@@ -463,7 +463,7 @@ nav {
       flex-direction: column;
       align-items: center;
       justify-content: center; }
-      .subscribe .container form .login {
+      .subscribe .container form .name_input {
         display: flex;
         gap: 60px; }
       .subscribe .container form .email {
