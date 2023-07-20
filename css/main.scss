@@ -455,13 +455,17 @@
       align-items: center;
       justify-content: center;
 
-      .fn,
-      .ln,
-      .email,
-      .subscribe {
-        padding-bottom: 18px;
+      .login {
         display: flex;
-        align-items: center;
+        gap: 60px;
+        //justify-content: space-between;
+      }
+      .email {
+        width: 366px;
+        margin-bottom: 16px;
+      }
+      .fn, .ln, {
+        width: 153px;}
 
         label {
           font: 400 14px/normal $main_font;
@@ -470,43 +474,34 @@
         }
 
         input {
+          width: 100%;
           border: 1px solid $black_color;
           padding: 12px 0 11px 8px;
-          width: 153px;
-          height: 39px;
-        }
+               }
 
         &::placeholder {
           color: transparent;
           font: 400 14px/normal $main_font;
         }
-
-        &:not(:first-child) {
-          margin-top: 60px;
-        }
       }
 
-      .subscribe {
-        label {
-          width: 366px;
-        }
-
-        button {
-          width: 115px;
-          height: 33px;
-          border-radius: 20px;
-          background-color: $black_color;
-          color: $white_color;
-          text-align: center;
-          font: 400 14px/normal $main_font;
-          padding: 7px 23px 10px;
-          border: none;
-          cursor: pointer;
-        }
+      button {
+        width: 115px;
+        height: 33px;
+        border-radius: 20px;
+        background-color: $black_color;
+        color: $white_color;
+        text-align: center;
+        font: 400 14px/normal $main_font;
+        padding: 7px 23px 10px;
+        border: none;
+        cursor: pointer;
+        margin-bottom: 88px;
       }
     }
   }
-}
+
+
 
 
 
