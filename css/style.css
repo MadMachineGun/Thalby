@@ -441,11 +441,15 @@ nav {
 
 .subscribe {
   background: #fff;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center; }
   .subscribe .container {
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; }
     .subscribe .container h3 {
       font: 700 36px/normal "Roboto", sans-serif;
       padding-top: 80px;
@@ -455,41 +459,56 @@ nav {
       margin-bottom: 25px;
       text-align: center; }
     .subscribe .container form {
-      margin: 0 auto;
-      max-width: 370px; }
-    .subscribe .container .form_fn,
-    .subscribe .container .form_ln {
-      display: inline-flex;
-      max-width: 153px; }
-    .subscribe .container .form_ln {
-      margin-right: 60px; }
-    .subscribe .container .form_email,
-    .subscribe .container .form_submit {
       display: flex;
-      justify-content: center;
-      margin-bottom: 18px; }
-    .subscribe .container .form_fn,
-    .subscribe .container .form_ln {
-      margin-right: 60px;
-      margin-bottom: 18px; }
-    .subscribe .container label {
-      font: 400 14px/normal "Roboto", sans-serif;
-      color: #A0A0A0;
-      border: 1px solid #000;
-      padding: 12px 8px;
-      flex-shrink: 0; }
-    .subscribe .container input {
-      flex: 1;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 5px; }
-    .subscribe .container .form_submit button {
-      background-color: #007BFF;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer; }
+      flex-direction: column;
+      align-items: center;
+      justify-content: center; }
+      .subscribe .container form .fn,
+      .subscribe .container form .ln,
+      .subscribe .container form .email,
+      .subscribe .container form .subscribe {
+        padding-bottom: 18px;
+        display: flex;
+        align-items: center; }
+        .subscribe .container form .fn label,
+        .subscribe .container form .ln label,
+        .subscribe .container form .email label,
+        .subscribe .container form .subscribe label {
+          font: 400 14px/normal "Roboto", sans-serif;
+          color: #A0A0A0;
+          padding: 12px 8px; }
+        .subscribe .container form .fn input,
+        .subscribe .container form .ln input,
+        .subscribe .container form .email input,
+        .subscribe .container form .subscribe input {
+          border: 1px solid #000;
+          padding: 12px 0 11px 8px;
+          width: 153px;
+          height: 39px; }
+        .subscribe .container form .fn::placeholder,
+        .subscribe .container form .ln::placeholder,
+        .subscribe .container form .email::placeholder,
+        .subscribe .container form .subscribe::placeholder {
+          color: transparent;
+          font: 400 14px/normal "Roboto", sans-serif; }
+        .subscribe .container form .fn:not(:first-child),
+        .subscribe .container form .ln:not(:first-child),
+        .subscribe .container form .email:not(:first-child),
+        .subscribe .container form .subscribe:not(:first-child) {
+          margin-top: 60px; }
+      .subscribe .container form .subscribe label {
+        width: 366px; }
+      .subscribe .container form .subscribe button {
+        width: 115px;
+        height: 33px;
+        border-radius: 20px;
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        font: 400 14px/normal "Roboto", sans-serif;
+        padding: 7px 23px 10px;
+        border: none;
+        cursor: pointer; }
 
 * {
   padding: 0;

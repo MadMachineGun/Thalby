@@ -426,12 +426,16 @@
 
 .subscribe {
   background: $white_color;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
 
   .container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
     h3 {
       font: 700 36px/normal $main_font;
@@ -446,59 +450,68 @@
     }
 
     form {
-      margin: 0 auto;
-      max-width: 370px;
-    }
-
-    .form_fn,
-    .form_ln, {
-      display: inline-flex;
-      //justify-content: space-between;
-      max-width: 153px;
-    }
-
-    .form_ln {
-      margin-right: 60px;
-    }
-
-    .form_email,
-    .form_submit {
       display: flex;
+      flex-direction: column;
+      align-items: center;
       justify-content: center;
-      margin-bottom: 18px;
-    }
 
-    .form_fn,
-    .form_ln {
-      margin-right: 60px;
-      margin-bottom: 18px;
-    }
+      .fn,
+      .ln,
+      .email,
+      .subscribe {
+        padding-bottom: 18px;
+        display: flex;
+        align-items: center;
 
-    label {
-      font: 400 14px/normal $main_font;
-      color: #A0A0A0;
-      border: 1px solid #000;
-      padding: 12px 8px;
-      flex-shrink: 0;
-    }
+        label {
+          font: 400 14px/normal $main_font;
+          color: #A0A0A0;
+          padding: 12px 8px;
+        }
 
-    input {
-      flex: 1;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 5px;
-    }
+        input {
+          border: 1px solid $black_color;
+          padding: 12px 0 11px 8px;
+          width: 153px;
+          height: 39px;
+        }
 
-    .form_submit button {
-      background-color: #007BFF;
-      color: #fff;
-      padding: 10px 20px;
-      border: none;
-      border-radius: 5px;
-      cursor: pointer;
+        &::placeholder {
+          color: transparent;
+          font: 400 14px/normal $main_font;
+        }
+
+        &:not(:first-child) {
+          margin-top: 60px;
+        }
+      }
+
+      .subscribe {
+        label {
+          width: 366px;
+        }
+
+        button {
+          width: 115px;
+          height: 33px;
+          border-radius: 20px;
+          background-color: $black_color;
+          color: $white_color;
+          text-align: center;
+          font: 400 14px/normal $main_font;
+          padding: 7px 23px 10px;
+          border: none;
+          cursor: pointer;
+        }
+      }
     }
   }
 }
+
+
+
+
+
 
 
 
