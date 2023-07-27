@@ -15,10 +15,9 @@ header {
       list-style: none;
       align-items: center; }
       header .container ul li:first-of-type {
-        margin-right: 15px; }
+        margin-right: 7px; }
         header .container ul li:first-of-type:last-of-type {
-          margin-left: 7px;
-          margin-right: 15px; }
+          margin-left: 15px; }
 
 nav {
   transform: translateX(0);
@@ -38,6 +37,9 @@ nav {
     transform: translateX(0px);
     padding-left: 0;
     white-space: nowrap; }
+    @media screen and (max-width: 768px) {
+      nav .nav-links {
+        align-items: start; } }
     nav .nav-links .link {
       margin-right: 28px; }
   nav ul {
@@ -52,7 +54,7 @@ nav {
 
 @media only screen and (max-width: 768px) {
   nav.nav-open {
-    transform: translateX(0px);
+    transform: translateX(2px);
     border-radius: 0% 0% 0% 0%;
     background-color: rgba(255, 255, 255, 0.6);
     z-index: 99; }
@@ -61,7 +63,7 @@ nav {
     display: inline-block;
     position: absolute;
     top: 10%;
-    right: -20%;
+    right: -30%;
     padding: 0;
     width: 30px;
     cursor: pointer;
@@ -103,10 +105,10 @@ nav {
     background: rgba(0, 0, 0, 0.6); }
 
   nav .nav-links {
-    padding-left: 20px;
+    padding-left: 25px;
     position: relative;
     left: 0;
-    top: 0;
+    top: 55px;
     width: 100%;
     height: 100%;
     display: flex;
@@ -117,14 +119,21 @@ nav {
 
   nav .nav-links.fade-in {
     opacity: 1;
-    transform: translateX(0px); }
+    transform: translateX(-15px); }
 
   nav .nav-links .link {
-    margin: 20px 0;
     text-decoration: none;
-    font: 700 16px/26px 'Roboto', sans-serif;
+    font: 400 16px/normal "Roboto", sans-serif;
     color: rgba(0, 0, 0, 0.9);
-    transition: all 300ms cubic-bezier(0.9, 0, 0.33, 1); }
+    transition: all 300ms cubic-bezier(0.9, 0, 0.33, 1);
+    margin: 10px;
+    color: #FFF;
+    display: inline-flex;
+    text-align: center;
+    border-radius: 100px;
+    border: 1px solid #000;
+    background: #000;
+    padding: 7px 23px 9px 23px; }
 
   nav .nav-links .link:hover {
     color: rgba(0, 0, 0, 0.5); }
