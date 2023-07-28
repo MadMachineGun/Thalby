@@ -263,6 +263,9 @@
       @include max-screen(768px) {
         padding-right: 20px;
       }
+      @include max-screen(1024px) {
+        margin-right: 40px
+      }
 
       img {
         width: 100%;

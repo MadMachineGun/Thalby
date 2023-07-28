@@ -349,6 +349,9 @@ nav {
       @media screen and (max-width: 768px) {
         .culture_and_heritage .container .moroccan_culture_image {
           padding-right: 20px; } }
+      @media screen and (max-width: 1024px) {
+        .culture_and_heritage .container .moroccan_culture_image {
+          margin-right: 40px; } }
       .culture_and_heritage .container .moroccan_culture_image img {
         width: 100%;
         display: block; }
