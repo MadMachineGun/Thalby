@@ -7,6 +7,9 @@ header {
     height: 56px;
     display: flex;
     justify-content: space-between; }
+    @media screen and (max-width: 1024px) {
+      header .container {
+        margin: 0 15px; } }
     header .container .logo {
       position: absolute;
       left: calc(50% - 40px); }
@@ -157,6 +160,9 @@ nav {
     @media screen and (max-width: 768px) {
       .fall_section .container {
         display: block; } }
+    @media screen and (max-width: 1024px) {
+      .fall_section .container {
+        margin: 0 15px; } }
     .fall_section .container article {
       align-items: flex-start;
       flex-direction: column; }
@@ -171,6 +177,9 @@ nav {
             margin-bottom: 22px;
             padding-top: 140px;
             padding-left: 15px;
+            width: 100%; } }
+        @media screen and (max-width: 1024px) {
+          .fall_section .container article h1 {
             width: 100%; } }
       .fall_section .container article p {
         font: 400 24px/normal "Roboto", sans-serif;
@@ -225,6 +234,9 @@ nav {
       color: #000;
       font: 400 20px/normal "Roboto", sans-serif;
       margin-bottom: 87px; }
+      @media screen and (max-width: 1024px) {
+        .our_guides .container h4 {
+          margin-bottom: 40px; } }
     .our_guides .container h3 {
       color: #000;
       font: 700 36px/normal "Roboto", sans-serif;
@@ -237,6 +249,9 @@ nav {
       @media screen and (max-width: 768px) {
         .our_guides .container .catalogue {
           display: block; } }
+      @media screen and (max-width: 1024px) {
+        .our_guides .container .catalogue {
+          margin-bottom: 50px; } }
       @media screen and (max-width: 768px) {
         .our_guides .container .catalogue .content {
           margin-bottom: 20px; } }
@@ -272,11 +287,18 @@ nav {
       .people_and_society .container .french_people_image img {
         width: 100%;
         display: block; }
+        @media screen and (max-width: 1024px) {
+          .people_and_society .container .french_people_image img {
+            position: relative;
+            left: 15px; } }
   .people_and_society .people {
     width: 500px;
     display: block;
     align-items: center;
     margin-left: 50px; }
+    @media screen and (max-width: 1024px) {
+      .people_and_society .people {
+        max-width: 500px; } }
     .people_and_society .people h2 {
       font: 700 36px/normal "Roboto", sans-serif;
       color: #000;

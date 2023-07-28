@@ -7,6 +7,9 @@ header {
     height: 56px;
     display: flex;
     justify-content: space-between;
+    @include max-screen(1024px){
+      margin: 0 15px;
+    }
 
     .logo {
       position: absolute;
@@ -75,6 +78,7 @@ nav {
     }
   }
 }
+
 @media only screen and (max-width: 768px) {
   nav.nav-open {
     transform: translateX(2px);

@@ -10,12 +10,14 @@
     @include max-screen(768px) {
       display: block;
     }
-
+    @include max-screen(1024px) {
+      margin: 0 15px;
+    }
 
     article {
       align-items: flex-start;
       flex-direction: column;
-     
+
       h1 {
         font: 700 60px/normal $main_font;
         color: $black_color;
@@ -27,7 +29,9 @@
           padding-top: 140px;
           padding-left: 15px;
           width: 100%;
-
+        }
+        @include max-screen(1024px) {
+          width: 100%;
         }
       }
 
@@ -98,6 +102,9 @@
       color: $black_color;
       font: 400 20px/normal $main_font;
       margin-bottom: 87px;
+      @include max-screen(1024px) {
+        margin-bottom: 40px;
+      }
     }
 
     h3 {
@@ -113,6 +120,9 @@
       margin-bottom: 248px;
       @include max-screen(768px) {
         display: block;
+      }
+      @include max-screen(1024px) {
+        margin-bottom: 50px;
       }
 
       .content {
@@ -168,6 +178,9 @@
       img {
         width: 100%;
         display: block;
+        @include max-screen(1024px) {
+          position: relative;
+          left: 15px;}
       }
     }
   }
@@ -177,6 +190,10 @@
     display: block;
     align-items: center;
     margin-left: 50px;
+    @include max-screen(1024px) {
+      max-width: 500px;
+    }
+
 
     h2 {
       font: 700 36px/normal $main_font;
