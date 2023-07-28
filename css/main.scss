@@ -174,14 +174,13 @@
       @include max-screen(768px) {
         padding-left: 20px;
       }
+      @include max-screen(1024px) {
+       margin-left: 40px}
+    }
 
       img {
         width: 100%;
         display: block;
-        @include max-screen(1024px) {
-          position: relative;
-          left: 15px;}
-      }
     }
   }
 
@@ -232,6 +231,10 @@
       align-items: start;
       text-align: right;
       margin-right: 50px;
+      @include max-screen(1024px) {
+        margin-left: 50px;
+      }
+
 
       h2 {
         font: 700 36px/normal $main_font;
@@ -264,6 +267,7 @@
       img {
         width: 100%;
         display: block;
+
       }
     }
   }
@@ -281,6 +285,8 @@
       @include max-screen(768px) {
         padding-left: 20px;
       }
+      @include max-screen(1024px) {
+        margin-left: 40px}
 
       img {
         width: 100%;

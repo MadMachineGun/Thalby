@@ -284,13 +284,12 @@ nav {
       @media screen and (max-width: 768px) {
         .people_and_society .container .french_people_image {
           padding-left: 20px; } }
-      .people_and_society .container .french_people_image img {
-        width: 100%;
-        display: block; }
-        @media screen and (max-width: 1024px) {
-          .people_and_society .container .french_people_image img {
-            position: relative;
-            left: 15px; } }
+      @media screen and (max-width: 1024px) {
+        .people_and_society .container .french_people_image {
+          margin-left: 40px; } }
+    .people_and_society .container img {
+      width: 100%;
+      display: block; }
   .people_and_society .people {
     width: 500px;
     display: block;
@@ -327,6 +326,9 @@ nav {
       align-items: start;
       text-align: right;
       margin-right: 50px; }
+      @media screen and (max-width: 1024px) {
+        .culture_and_heritage .container .culture {
+          margin-left: 50px; } }
       .culture_and_heritage .container .culture h2 {
         font: 700 36px/normal "Roboto", sans-serif;
         color: #000;
@@ -361,6 +363,9 @@ nav {
       @media screen and (max-width: 768px) {
         .power_and_politics .container .german_power_image {
           padding-left: 20px; } }
+      @media screen and (max-width: 1024px) {
+        .power_and_politics .container .german_power_image {
+          margin-left: 40px; } }
       .power_and_politics .container .german_power_image img {
         width: 100%;
         display: block; }
