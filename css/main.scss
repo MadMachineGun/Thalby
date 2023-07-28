@@ -24,13 +24,17 @@
         margin-bottom: 42px;
         margin-top: 90px;
         width: 540px;
+
+        @include max-screen(1024px) {
+          width: 100%;
+        }
+        @include max-screen(834px) {
+          width: 100%;
+        }
         @include max-screen(768px) {
           margin-bottom: 22px;
           padding-top: 140px;
           padding-left: 15px;
-          width: 100%;
-        }
-        @include max-screen(1024px) {
           width: 100%;
         }
       }
@@ -71,6 +75,9 @@
       right: -100px;
       @include max-screen(768px) {
         right: -20px;
+      }
+      @include max-screen(834px) {
+        position: unset;
       }
     }
   }
@@ -175,12 +182,13 @@
         padding-left: 20px;
       }
       @include max-screen(1024px) {
-       margin-left: 40px}
+        margin-left: 40px
+      }
     }
 
-      img {
-        width: 100%;
-        display: block;
+    img {
+      width: 100%;
+      display: block;
     }
   }
 
@@ -289,7 +297,8 @@
         padding-left: 20px;
       }
       @include max-screen(1024px) {
-        margin-left: 40px}
+        margin-left: 40px
+      }
 
       img {
         width: 100%;
