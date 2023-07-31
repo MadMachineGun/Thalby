@@ -7,12 +7,13 @@
   .container {
     display: flex;
     justify-content: space-between;
-    @include max-screen(768px) {
-      display: block;
-    }
     @include max-screen(1024px) {
       margin: 0 15px;
     }
+    @include max-screen(768px) {
+      display: block;
+    }
+
 
     article {
       align-items: flex-start;
@@ -23,6 +24,9 @@
       }
       @include max-screen(992px) {
         max-width: 350px;
+      }
+      @include max-screen(428px) {
+        width: 100%;
       }
 
       h1 {
@@ -44,6 +48,9 @@
           padding-left: 15px;
           max-width: 100%;
         }
+        @include max-screen(428px) {
+          font-size: 40px;
+        }
       }
 
       p {
@@ -56,6 +63,9 @@
         @include max-screen(768px) {
           margin-bottom: 15px;
           padding-left: 15px;
+        }
+        @include max-screen(428px) {
+          width: 100%;
         }
       }
 
@@ -91,17 +101,18 @@
       @media (max-width: 992px) {
         right: -20px;
       }
-
-      @media (max-width: 768px) {
-        right: -20px;
-        width: 100%;
-      }
-
       @media (min-width: 769px) and (max-width: 834px) {
         position: unset;
         img:nth-child(1) {
           max-width: 450px;
         }
+      }
+      @media (max-width: 768px) {
+        right: -20px;
+        width: 100%;
+      }
+      @include max-screen(428px) {
+       width: 50%;
       }
     }
   }

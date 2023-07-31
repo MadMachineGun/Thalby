@@ -65,6 +65,13 @@ nav {
     background-color: rgba(255, 255, 255, 0.6);
     z-index: 99; }
 
+  .nav-open .nav-links {
+    padding-left: 15px; } }
+@media only screen and (max-width: 768px) and (max-width: 428px) {
+  .nav-open .menu-btn {
+    right: -30%;
+    right: 60%; } }
+@media only screen and (max-width: 768px) {
   nav .menu-btn {
     display: inline-block;
     position: absolute;
@@ -160,12 +167,12 @@ nav {
   .fall_section .container {
     display: flex;
     justify-content: space-between; }
-    @media screen and (max-width: 768px) {
-      .fall_section .container {
-        display: block; } }
     @media screen and (max-width: 1024px) {
       .fall_section .container {
         margin: 0 15px; } }
+    @media screen and (max-width: 768px) {
+      .fall_section .container {
+        display: block; } }
     .fall_section .container article {
       align-items: flex-start;
       flex-direction: column;
@@ -176,6 +183,9 @@ nav {
       @media screen and (max-width: 992px) {
         .fall_section .container article {
           max-width: 350px; } }
+      @media screen and (max-width: 428px) {
+        .fall_section .container article {
+          width: 100%; } }
       .fall_section .container article h1 {
         font: 700 60px/normal "Roboto", sans-serif;
         color: #000;
@@ -194,6 +204,9 @@ nav {
             padding-top: 140px;
             padding-left: 15px;
             max-width: 100%; } }
+        @media screen and (max-width: 428px) {
+          .fall_section .container article h1 {
+            font-size: 40px; } }
       .fall_section .container article p {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
@@ -205,6 +218,9 @@ nav {
           .fall_section .container article p {
             margin-bottom: 15px;
             padding-left: 15px; } }
+        @media screen and (max-width: 428px) {
+          .fall_section .container article p {
+            width: 100%; } }
       .fall_section .container article a {
         font: 400 17px/normal "Roboto", sans-serif;
         color: #FFF;
@@ -233,15 +249,18 @@ nav {
       @media (max-width: 992px) {
         .fall_section .container .fall_img {
           right: -20px; } }
-      @media (max-width: 768px) {
-        .fall_section .container .fall_img {
-          right: -20px;
-          width: 100%; } }
       @media (min-width: 769px) and (max-width: 834px) {
         .fall_section .container .fall_img {
           position: unset; }
           .fall_section .container .fall_img img:nth-child(1) {
             max-width: 450px; } }
+      @media (max-width: 768px) {
+        .fall_section .container .fall_img {
+          right: -20px;
+          width: 100%; } }
+      @media screen and (max-width: 428px) {
+        .fall_section .container .fall_img {
+          width: 50%; } }
 
 .our_guides {
   background: white;
