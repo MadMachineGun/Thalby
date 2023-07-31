@@ -17,6 +17,7 @@
     article {
       align-items: flex-start;
       flex-direction: column;
+      max-width: 400px;
 
       h1 {
         font: 700 60px/normal $main_font;
@@ -78,7 +79,7 @@
       right: -100px;
 
       @media (max-width: 1024px) {
-       max-width: 480px;
+       max-width: 500px;
         right: 100px;
        // img:nth-child(1) {
        //position: relative;
