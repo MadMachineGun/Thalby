@@ -345,6 +345,10 @@ nav {
       font: 400 36px/normal "Roboto", sans-serif;
       color: #000;
       margin-bottom: 40px; }
+      @media screen and (max-width: 800px) {
+        .people_and_society .people p {
+          font: 400 26px/normal "Roboto", sans-serif;
+          padding-right: 20px; } }
       @media screen and (max-width: 768px) {
         .people_and_society .people p {
           font: 400 26px/normal "Roboto", sans-serif;
@@ -377,6 +381,9 @@ nav {
         font: 400 36px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 40px; }
+        @media screen and (max-width: 800px) {
+          .culture_and_heritage .container .culture p {
+            font: 400 26px/normal "Roboto", sans-serif; } }
         @media screen and (max-width: 768px) {
           .culture_and_heritage .container .culture p {
             font: 400 26px/normal "Roboto", sans-serif; } }
@@ -426,6 +433,10 @@ nav {
       font: 400 36px/normal "Roboto", sans-serif;
       color: #000;
       margin-bottom: 40px; }
+      @media screen and (max-width: 800px) {
+        .power_and_politics .power p {
+          font: 400 26px/normal "Roboto", sans-serif;
+          padding-right: 20px; } }
       @media screen and (max-width: 768px) {
         .power_and_politics .power p {
           font: 400 26px/normal "Roboto", sans-serif;

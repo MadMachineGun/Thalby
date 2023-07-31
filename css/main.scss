@@ -242,12 +242,16 @@
       font: 700 36px/normal $main_font;
       color: $black_color;
       margin-bottom: 31px;
-    }
+        }
 
     p {
       font: 400 36px/normal $main_font;
       color: $black_color;
       margin-bottom: 40px;
+      @include max-screen(800px) {
+        font: 400 26px/normal $main_font;
+        padding-right: 20px;
+      }
       @include max-screen(768px) {
         font: 400 26px/normal $main_font;
         padding-right: 20px;
@@ -291,6 +295,9 @@
         font: 400 36px/normal $main_font;
         color: $black_color;
         margin-bottom: 40px;
+        @include max-screen(800px) {
+          font: 400 26px/normal $main_font;
+        }
         @include max-screen(768px) {
           font: 400 26px/normal $main_font;
         }
@@ -363,6 +370,10 @@
       font: 400 36px/normal $main_font;
       color: $black_color;
       margin-bottom: 40px;
+      @include max-screen(800px) {
+        font: 400 26px/normal $main_font;
+        padding-right: 20px;
+      }
       @include max-screen(768px) {
         font: 400 26px/normal $main_font;
         padding-right: 20px;
