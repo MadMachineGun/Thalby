@@ -74,6 +74,12 @@
       position: relative;
       right: -100px;
 
+      @media (max-width: 1024px) {
+        img:nth-child(1) {
+          max-width: 480px;
+        }
+      }
+
       @media (max-width: 768px) {
         right: -20px;
       }
@@ -123,6 +129,9 @@
       color: $black_color;
       font: 700 36px/normal $main_font;
       margin-bottom: 52px;
+      @media (max-width: 834px) {
+        margin-bottom: 25px;
+      }
     }
 
     .catalogue {
@@ -136,6 +145,9 @@
       @include max-screen(1024px) {
         margin-bottom: 50px;
       }
+      @media (max-width: 834px) {
+        flex-direction: column;
+      }
 
       .content {
         @include max-screen(768px) {
@@ -145,6 +157,9 @@
 
       img {
         margin-bottom: 20px;
+        @media (max-width: 834px) {
+          padding-top: 15px;
+        }
       }
 
       article {
@@ -169,6 +184,7 @@
         font: 700 17px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+
       }
     }
   }
