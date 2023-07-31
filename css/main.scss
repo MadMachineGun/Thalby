@@ -85,6 +85,9 @@
           margin-bottom: 45px;
           margin-left: 15px;
         }
+        @include max-screen(428px){
+          margin-bottom: 20px;
+        }
       }
     }
 
@@ -112,7 +115,10 @@
         width: 100%;
       }
       @include max-screen(428px) {
-       width: 50%;
+        position: unset;
+        img:nth-child(1) {
+          max-width: 400px;
+        }
       }
     }
   }

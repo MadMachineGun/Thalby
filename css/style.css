@@ -69,14 +69,13 @@ nav {
     padding-left: 15px; } }
 @media only screen and (max-width: 768px) and (max-width: 428px) {
   .nav-open .menu-btn {
-    right: -30%;
-    right: 60%; } }
+    right: 68%; } }
 @media only screen and (max-width: 768px) {
   nav .menu-btn {
     display: inline-block;
     position: absolute;
     top: 10%;
-    right: -30%;
+    right: -20%;
     padding: 0;
     width: 30px;
     cursor: pointer;
@@ -237,6 +236,9 @@ nav {
             font: 400 16px/normal "Roboto", sans-serif;
             margin-bottom: 45px;
             margin-left: 15px; } }
+        @media screen and (max-width: 428px) {
+          .fall_section .container article a {
+            margin-bottom: 20px; } }
     .fall_section .container .fall_img {
       max-height: 100%;
       max-width: 599px;
@@ -260,7 +262,9 @@ nav {
           width: 100%; } }
       @media screen and (max-width: 428px) {
         .fall_section .container .fall_img {
-          width: 50%; } }
+          position: unset; }
+          .fall_section .container .fall_img img:nth-child(1) {
+            max-width: 400px; } }
 
 .our_guides {
   background: white;
