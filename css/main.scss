@@ -26,7 +26,7 @@
         max-width: 540px;
 
         @include max-screen(1024px) {
-          width: 100%;
+          width: 75%;
         }
         @include max-screen(834px) {
           width: 100%;
@@ -35,7 +35,7 @@
           margin-bottom: 22px;
           padding-top: 140px;
           padding-left: 15px;
-          width: 100%;
+          max-width: 100%;
         }
       }
 
@@ -43,6 +43,9 @@
         font: 400 24px/normal $main_font;
         color: $black_color;
         margin-bottom: 26px;
+        @include max-screen(1024px) {
+          width: 65%;
+        }
         @include max-screen(768px) {
           margin-bottom: 15px;
           padding-left: 15px;
@@ -75,13 +78,17 @@
       right: -100px;
 
       @media (max-width: 1024px) {
-        img:nth-child(1) {
-          max-width: 480px;
-        }
+       max-width: 480px;
+        right: 100px;
+       // img:nth-child(1) {
+       //position: relative;
+       //   right: 100px;
+       // }
       }
 
       @media (max-width: 768px) {
         right: -20px;
+        width: 100%;
       }
 
       @media (min-width: 769px) and (max-width: 834px) {

@@ -177,7 +177,7 @@ nav {
         max-width: 540px; }
         @media screen and (max-width: 1024px) {
           .fall_section .container article h1 {
-            width: 100%; } }
+            width: 75%; } }
         @media screen and (max-width: 834px) {
           .fall_section .container article h1 {
             width: 100%; } }
@@ -186,11 +186,14 @@ nav {
             margin-bottom: 22px;
             padding-top: 140px;
             padding-left: 15px;
-            width: 100%; } }
+            max-width: 100%; } }
       .fall_section .container article p {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 26px; }
+        @media screen and (max-width: 1024px) {
+          .fall_section .container article p {
+            width: 65%; } }
         @media screen and (max-width: 768px) {
           .fall_section .container article p {
             margin-bottom: 15px;
@@ -217,11 +220,13 @@ nav {
       position: relative;
       right: -100px; }
       @media (max-width: 1024px) {
-        .fall_section .container .fall_img img:nth-child(1) {
-          max-width: 480px; } }
+        .fall_section .container .fall_img {
+          max-width: 480px;
+          right: 100px; } }
       @media (max-width: 768px) {
         .fall_section .container .fall_img {
-          right: -20px; } }
+          right: -20px;
+          width: 100%; } }
       @media (min-width: 769px) and (max-width: 834px) {
         .fall_section .container .fall_img {
           position: unset; }
