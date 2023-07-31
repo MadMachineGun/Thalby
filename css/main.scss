@@ -23,7 +23,7 @@
         color: $black_color;
         margin-bottom: 42px;
         margin-top: 90px;
-        width: 540px;
+        max-width: 540px;
 
         @include max-screen(1024px) {
           width: 100%;
@@ -73,11 +73,16 @@
       max-width: 599px;
       position: relative;
       right: -100px;
-      @include max-screen(768px) {
+
+      @media (max-width: 768px) {
         right: -20px;
       }
-      @include max-screen(834px) {
+
+      @media (min-width: 769px) and (max-width: 834px) {
         position: unset;
+        img:nth-child(1) {
+          max-width: 480px;
+        }
       }
     }
   }
@@ -178,11 +183,11 @@
 
     .french_people_image {
       width: 385px;
-      @include max-screen(768px) {
-        padding-left: 20px;
-      }
       @include max-screen(1024px) {
         margin-left: 40px
+      }
+      @include max-screen(768px) {
+        padding-left: 20px;
       }
     }
 
@@ -293,11 +298,11 @@
 
     .german_power_image {
       width: 385px;
-      @include max-screen(768px) {
-        padding-left: 20px;
-      }
       @include max-screen(1024px) {
         margin-left: 40px
+      }
+      @include max-screen(768px) {
+        padding-left: 20px;
       }
 
       img {
