@@ -170,9 +170,12 @@ nav {
       align-items: flex-start;
       flex-direction: column;
       max-width: 465px; }
+      @media screen and (max-width: 1024px) {
+        .fall_section .container article {
+          max-width: 400px; } }
       @media screen and (max-width: 992px) {
         .fall_section .container article {
-          width: 350px; } }
+          max-width: 350px; } }
       .fall_section .container article h1 {
         font: 700 60px/normal "Roboto", sans-serif;
         color: #000;
@@ -221,11 +224,12 @@ nav {
     .fall_section .container .fall_img {
       max-height: 100%;
       max-width: 599px;
-      position: relative; }
+      position: relative;
+      right: -100px; }
       @media (max-width: 1024px) {
         .fall_section .container .fall_img {
           max-width: 500px;
-          right: 100px; } }
+          right: 80px; } }
       @media (max-width: 992px) {
         .fall_section .container .fall_img {
           right: -20px; } }
@@ -237,7 +241,7 @@ nav {
         .fall_section .container .fall_img {
           position: unset; }
           .fall_section .container .fall_img img:nth-child(1) {
-            max-width: 480px; } }
+            max-width: 450px; } }
 
 .our_guides {
   background: white;
