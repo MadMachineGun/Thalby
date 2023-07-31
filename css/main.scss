@@ -17,7 +17,10 @@
     article {
       align-items: flex-start;
       flex-direction: column;
-      max-width: 400px;
+      max-width: 465px;
+      @include max-screen(992px) {
+        width: 350px;
+      }
 
       h1 {
         font: 700 60px/normal $main_font;
@@ -76,15 +79,14 @@
       max-height: 100%;
       max-width: 599px;
       position: relative;
-      right: -100px;
+      //right: -100px;
 
       @media (max-width: 1024px) {
-       max-width: 500px;
+        max-width: 500px;
         right: 100px;
-       // img:nth-child(1) {
-       //position: relative;
-       //   right: 100px;
-       // }
+      }
+      @media (max-width: 992px) {
+        right: -20px;
       }
 
       @media (max-width: 768px) {
@@ -204,9 +206,11 @@
 
   .container {
     display: flex;
+    justify-content: center;
 
     .french_people_image {
       width: 385px;
+
       @include max-screen(1024px) {
         margin-left: 40px
       }
@@ -261,6 +265,7 @@
 
   .container {
     display: flex;
+    justify-content: center;
 
     .culture {
       width: 500px;
@@ -297,6 +302,7 @@
 
     .moroccan_culture_image {
       width: 385px;
+
       @include max-screen(768px) {
         padding-right: 20px;
       }
@@ -319,9 +325,11 @@
 
   .container {
     display: flex;
+    justify-content: center;
 
     .german_power_image {
       width: 385px;
+
       @include max-screen(1024px) {
         margin-left: 40px
       }
