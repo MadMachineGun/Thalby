@@ -223,6 +223,9 @@
 .people_and_society {
   background: rgba(204, 204, 204, 0.30);
   padding: 76px 0 51px 0;
+  @include max-screen(428px) {
+    padding: 40px 0 25px 0;
+  }
 
   .container {
     display: flex;
@@ -289,6 +292,8 @@
       }
       @include max-screen(428px) {
         padding-right: 0;
+        font: 400 20px/normal $main_font;
+        margin-bottom: 15px;
       }
     }
 
@@ -303,6 +308,9 @@
 .culture_and_heritage {
   background: rgba(204, 204, 204, 0.60);
   padding: 76px 0 51px 0;
+  @include max-screen(428px) {
+    padding: 40px 0 25px 0;
+  }
 
   .container {
     display: flex;
@@ -330,6 +338,9 @@
         font: 700 36px/normal $main_font;
         color: $black_color;
         margin-bottom: 31px;
+        @include max-screen(428px) {
+          margin-bottom: 15px;
+        }
       }
 
       p {
@@ -341,6 +352,10 @@
         }
         @include max-screen(768px) {
           font: 400 26px/normal $main_font;
+        }
+        @include max-screen(428px) {
+          font: 400 20px/normal $main_font;
+          margin-bottom: 15px;
         }
       }
 
@@ -381,6 +396,9 @@
 .power_and_politics {
   background: rgba(204, 204, 204, 0.30);
   padding: 76px 0 51px 0;
+  @include max-screen(428px) {
+    padding: 40px 0 25px 0;
+  }
 
   .container {
     display: flex;
@@ -388,7 +406,6 @@
     @include max-screen(428px) {
       flex-direction: column;
     }
-
     .german_power_image {
       width: 385px;
 
@@ -424,6 +441,9 @@
       font: 700 36px/normal $main_font;
       color: $black_color;
       margin-bottom: 31px;
+      @include max-screen(428px) {
+        margin: 15px 0;
+      }
     }
 
     p {
@@ -437,6 +457,11 @@
       @include max-screen(768px) {
         font: 400 26px/normal $main_font;
         padding-right: 20px;
+      }
+      @include max-screen(428px) {
+        padding-right: 0;
+        font: 400 20px / normal main_font;
+        margin-bottom: 15px;
       }
     }
 

@@ -338,6 +338,9 @@ nav {
 .people_and_society {
   background: rgba(204, 204, 204, 0.3);
   padding: 76px 0 51px 0; }
+  @media screen and (max-width: 428px) {
+    .people_and_society {
+      padding: 40px 0 25px 0; } }
   .people_and_society .container {
     display: flex;
     justify-content: center; }
@@ -392,7 +395,9 @@ nav {
           padding-right: 20px; } }
       @media screen and (max-width: 428px) {
         .people_and_society .people p {
-          padding-right: 0; } }
+          padding-right: 0;
+          font: 400 20px/normal "Roboto", sans-serif;
+          margin-bottom: 15px; } }
     .people_and_society .people a {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
@@ -401,6 +406,9 @@ nav {
 .culture_and_heritage {
   background: rgba(204, 204, 204, 0.6);
   padding: 76px 0 51px 0; }
+  @media screen and (max-width: 428px) {
+    .culture_and_heritage {
+      padding: 40px 0 25px 0; } }
   .culture_and_heritage .container {
     display: flex;
     justify-content: center; }
@@ -425,6 +433,9 @@ nav {
         font: 700 36px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 31px; }
+        @media screen and (max-width: 428px) {
+          .culture_and_heritage .container .culture h2 {
+            margin-bottom: 15px; } }
       .culture_and_heritage .container .culture p {
         font: 400 36px/normal "Roboto", sans-serif;
         color: #000;
@@ -435,6 +446,10 @@ nav {
         @media screen and (max-width: 768px) {
           .culture_and_heritage .container .culture p {
             font: 400 26px/normal "Roboto", sans-serif; } }
+        @media screen and (max-width: 428px) {
+          .culture_and_heritage .container .culture p {
+            font: 400 20px/normal "Roboto", sans-serif;
+            margin-bottom: 15px; } }
       .culture_and_heritage .container .culture a {
         font: 700 17px/normal "Roboto", sans-serif;
         color: #000;
@@ -461,6 +476,9 @@ nav {
 .power_and_politics {
   background: rgba(204, 204, 204, 0.3);
   padding: 76px 0 51px 0; }
+  @media screen and (max-width: 428px) {
+    .power_and_politics {
+      padding: 40px 0 25px 0; } }
   .power_and_politics .container {
     display: flex;
     justify-content: center; }
@@ -495,6 +513,9 @@ nav {
       font: 700 36px/normal "Roboto", sans-serif;
       color: #000;
       margin-bottom: 31px; }
+      @media screen and (max-width: 428px) {
+        .power_and_politics .power h2 {
+          margin: 15px 0; } }
     .power_and_politics .power p {
       font: 400 36px/normal "Roboto", sans-serif;
       color: #000;
@@ -507,6 +528,11 @@ nav {
         .power_and_politics .power p {
           font: 400 26px/normal "Roboto", sans-serif;
           padding-right: 20px; } }
+      @media screen and (max-width: 428px) {
+        .power_and_politics .power p {
+          padding-right: 0;
+          font: 400 20px / normal main_font;
+          margin-bottom: 15px; } }
     .power_and_politics .power a {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
