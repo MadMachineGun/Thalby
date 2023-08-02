@@ -1,63 +1,73 @@
-/*
-Error: Undefined variable: "$black_color".
-        on line 4 of footer.scss
+@import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&display=swap");
+@import url(mobile_menu.css);
+* {
+  padding: 0;
+  margin: 0; }
 
-1: @import "style";
-2: 
-3: footer {
-4:   background-color: $black_color;
-5:   position: relative;
-6:   width: 100%;
-7: 
-8:   p {
-9:     position: absolute;
+.container {
+  max-width: 1064px;
+  margin: auto;
+  align-items: center; }
 
-Backtrace:
-footer.scss:4
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block (2 levels) in visit_rule'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `map'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:440:in `block in visit_rule'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:438:in `visit_rule'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `block in with_base'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:135:in `with_frame'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/stack.rb:79:in `with_base'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:158:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `map'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:52:in `visit_children'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `block in visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/base.rb:36:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:157:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:10:in `visit'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:36:in `css_tree'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/root_node.rb:29:in `render_with_sourcemap'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:389:in `_render_with_sourcemap'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/engine.rb:307:in `render_with_sourcemap'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:387:in `run'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/exec/sass_scss.rb:63:in `process_result'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/exec/base.rb:50:in `parse'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/exec/base.rb:18:in `parse!'
-C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/bin/sass:13:in `<top (required)>'
-C:/Users/User/AppData/Local/Microsoft/WindowsApps/sass:32:in `load'
-C:/Users/User/AppData/Local/Microsoft/WindowsApps/sass:32:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Undefined variable: \"$black_color\".\A         on line 4 of footer.scss\A \A 1: @import \"style\";\A 2: \A 3: footer {\A 4:   background-color: $black_color;\A 5:   position: relative;\A 6:   width: 100%;\A 7: \A 8:   p {\A 9:     position: absolute;"; }
+footer {
+  background-color: #000;
+  position: relative;
+  width: 100%; }
+  footer p {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font: 400 14px/normal "Roboto", sans-serif;
+    color: #fff;
+    list-style-type: none;
+    text-decoration: none; }
+  footer .container {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+    align-items: start; }
+    footer .container .social {
+      margin-left: 70px;
+      max-width: 130px; }
+      @media screen and (max-width: 768px) {
+        footer .container .social {
+          margin-left: 15px; } }
+      footer .container .social .logo img {
+        margin-bottom: 37px; }
+      footer .container .social .facebook img, footer .container .social .instagram img {
+        margin-right: 20px; }
+    footer .container .about_contact {
+      display: flex; }
+      footer .container .about_contact .about li {
+        margin-bottom: 12px;
+        margin-right: 72px;
+        font: 400 14px/normal "Roboto", sans-serif;
+        color: #fff;
+        list-style-type: none;
+        text-decoration: none; }
+        footer .container .about_contact .about li:first-of-type {
+          margin-bottom: 36px; }
+        footer .container .about_contact .about li:last-of-type {
+          padding-bottom: 60px; }
+        footer .container .about_contact .about li a {
+          font: 400 14px/normal "Roboto", sans-serif;
+          color: #fff;
+          list-style-type: none;
+          text-decoration: none; }
+      footer .container .about_contact .contact li {
+        margin-bottom: 12px;
+        margin-right: 30px;
+        font: 400 14px/normal "Roboto", sans-serif;
+        color: #fff;
+        list-style-type: none;
+        text-decoration: none; }
+        footer .container .about_contact .contact li:first-child {
+          margin-bottom: 36px; }
+        footer .container .about_contact .contact li a {
+          font: 400 14px/normal "Roboto", sans-serif;
+          color: #fff;
+          list-style-type: none;
+          text-decoration: none; }
+
+/*# sourceMappingURL=footer.css.map */

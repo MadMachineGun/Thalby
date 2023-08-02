@@ -1,6 +1,6 @@
 {
 "version": 3,
-"mappings": "AAIQ,2GAAmG;AAS3G,CAAE;EACA,OAAO,EAAE,CAAC;EACV,MAAM,EAAE,CAAC;;AAGX,UAAW;EACT,SAAS,EAAE,MAAM;EACjB,MAAM,EAAE,IAAI;EACZ,WAAW,EAAE,MAAM",
+"mappings": "AAIQ,2GAAmG",
 "sources": ["variables.scss"],
 "names": [],
 "file": "variables.css"
