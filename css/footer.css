@@ -1,17 +1,19 @@
 /*
 Error: Undefined variable: "$black_color".
-        on line 2 of footer.scss
+        on line 4 of footer.scss
 
-1: footer {
-2:   background-color: $black_color;
-3:   position: relative;
-4:   width: 100%;
-5: 
-6:   p {
-7:     position: absolute;
+1: @import "style";
+2: 
+3: footer {
+4:   background-color: $black_color;
+5:   position: relative;
+6:   width: 100%;
+7: 
+8:   p {
+9:     position: absolute;
 
 Backtrace:
-footer.scss:2
+footer.scss:4
 C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/script/tree/variable.rb:49:in `_perform'
 C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/script/tree/node.rb:50:in `perform'
 C:/Users/User/.local/share/gem/ruby/3.2.0/gems/sass-3.7.4/lib/sass/tree/visitors/perform.rb:398:in `visit_prop'
@@ -58,6 +60,4 @@ C:/Users/User/AppData/Local/Microsoft/WindowsApps/sass:32:in `<main>'
 body:before {
   white-space: pre;
   font-family: monospace;
-  content: "Error: Undefined variable: \"$black_color\".\A         on line 2 of footer.scss\A \A 1: footer {\A 2:   background-color: $black_color;\A 3:   position: relative;\A 4:   width: 100%;\A 5: \A 6:   p {\A 7:     position: absolute;"; }
-
-
+  content: "Error: Undefined variable: \"$black_color\".\A         on line 4 of footer.scss\A \A 1: @import \"style\";\A 2: \A 3: footer {\A 4:   background-color: $black_color;\A 5:   position: relative;\A 6:   width: 100%;\A 7: \A 8:   p {\A 9:     position: absolute;"; }
