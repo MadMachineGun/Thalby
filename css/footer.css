@@ -59,3 +59,5 @@ body:before {
   white-space: pre;
   font-family: monospace;
   content: "Error: Undefined variable: \"$black_color\".\A         on line 2 of footer.scss\A \A 1: footer {\A 2:   background-color: $black_color;\A 3:   position: relative;\A 4:   width: 100%;\A 5: \A 6:   p {\A 7:     position: absolute;"; }
+
+
