@@ -225,7 +225,9 @@ nav {
             max-width: 100%; } }
         @media screen and (max-width: 428px) {
           .fall_section .container article h1 {
-            font-size: 40px; } }
+            font-size: 40px;
+            text-align: center;
+            padding-left: 35px; } }
       .fall_section .container article p {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
@@ -239,7 +241,9 @@ nav {
             padding-left: 15px; } }
         @media screen and (max-width: 428px) {
           .fall_section .container article p {
-            width: 100%; } }
+            width: 100%;
+            text-align: center;
+            padding-left: 30px; } }
       .fall_section .container article a {
         font: 400 17px/normal "Roboto", sans-serif;
         color: #FFF;
@@ -258,7 +262,9 @@ nav {
             margin-left: 15px; } }
         @media screen and (max-width: 428px) {
           .fall_section .container article a {
-            margin-bottom: 20px; } }
+            position: relative;
+            right: -130px;
+            margin: 0 0 30px 0; } }
     .fall_section .container .fall_img {
       max-height: 100%;
       max-width: 599px;
@@ -302,6 +308,10 @@ nav {
       color: #000;
       font: 400 20px/normal "Roboto", sans-serif;
       margin-bottom: 47px; }
+      @media screen and (max-width: 428px) {
+        .our_guides .container p {
+          padding-left: 30px;
+          max-width: 90%; } }
     .our_guides .container h4 {
       color: #000;
       font: 400 20px/normal "Roboto", sans-serif;
