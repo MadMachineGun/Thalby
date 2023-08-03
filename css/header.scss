@@ -60,16 +60,16 @@ nav {
     }
 
     .link {
-      //margin-right: 28px;
-      @include max-screen(960px) {
-        margin-right: -20px;
+
+      @media (min-width: 961px) {
+        margin-right: 28px;
       }
-      @include max-screen(820px) {
-        margin-right: -30px;
+      @media (min-width: 830px) and (max-width: 960px) {
+        margin-right: 20px;
       }
-      //@include max-screen(834px) {
-      //  margin-right: -20px;
-      //}
+      @media (min-width: 769px) and (max-width: 829px) {
+        margin-right: 10px;
+      }
     }
   }
 
