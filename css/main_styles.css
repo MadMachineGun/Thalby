@@ -14,6 +14,9 @@
 header {
   background-color: #fff;
   padding-top: 15px; }
+  @media (min-width: 1025px) and (max-width: 1110px) {
+    header {
+      padding: 15px 0 0 15px; } }
   header .container {
     height: 56px;
     display: flex;
@@ -190,7 +193,7 @@ nav {
   .fall_section .container {
     display: flex;
     justify-content: space-between; }
-    @media screen and (max-width: 1024px) {
+    @media (min-width: 1024px) and (max-width: 1110px) {
       .fall_section .container {
         margin: 0 15px; } }
     @media screen and (max-width: 768px) {
@@ -206,9 +209,13 @@ nav {
       @media screen and (max-width: 992px) {
         .fall_section .container article {
           max-width: 350px; } }
+      @media (min-width: 428px) and (max-width: 991px) {
+        .fall_section .container article {
+          max-width: 100%;
+          text-align: center; } }
       @media screen and (max-width: 428px) {
         .fall_section .container article {
-          width: 100%; } }
+          padding-left: 0; } }
       .fall_section .container article h1 {
         font: 700 60px/normal "Roboto", sans-serif;
         color: #000;
@@ -236,9 +243,10 @@ nav {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 26px; }
-        @media screen and (max-width: 1024px) {
+        @media (min-width: 428px) and (max-width: 991px) {
           .fall_section .container article p {
-            width: 65%; } }
+            max-width: 100%;
+            text-align: center; } }
         @media screen and (max-width: 768px) {
           .fall_section .container article p {
             margin-bottom: 15px;
@@ -247,7 +255,7 @@ nav {
           .fall_section .container article p {
             width: 100%;
             text-align: center;
-            padding-left: 30px; } }
+            padding-left: 0; } }
       .fall_section .container article a {
         font: 400 17px/normal "Roboto", sans-serif;
         color: #FFF;

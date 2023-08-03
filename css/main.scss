@@ -1,4 +1,5 @@
 @import "style";
+
 .fall_section {
   background: #F0EFEB;
   display: flex;
@@ -8,7 +9,7 @@
   .container {
     display: flex;
     justify-content: space-between;
-    @include max-screen(1024px) {
+    @media (min-width: 1024px) and (max-width: 1110px) {
       margin: 0 15px;
     }
     @include max-screen(768px) {
@@ -26,8 +27,12 @@
       @include max-screen(992px) {
         max-width: 350px;
       }
+      @media (min-width: 428px) and (max-width: 991px) {
+        max-width: 100%;
+        text-align: center;
+      }
       @include max-screen(428px) {
-        width: 100%;
+        padding-left: 0;
       }
 
       h1 {
@@ -43,6 +48,7 @@
         @include max-screen(834px) {
           width: 100%;
         }
+
         @include max-screen(768px) {
           margin-bottom: 22px;
           padding-top: 140px;
@@ -60,8 +66,10 @@
         font: 400 24px/normal $main_font;
         color: $black_color;
         margin-bottom: 26px;
-        @include max-screen(1024px) {
-          width: 65%;
+
+        @media (min-width: 428px) and (max-width: 991px) {
+          max-width: 100%;
+          text-align: center;
         }
         @include max-screen(768px) {
           margin-bottom: 15px;
@@ -70,7 +78,7 @@
         @include max-screen(428px) {
           width: 100%;
           text-align: center;
-          padding-left: 30px;
+          padding-left: 0;
         }
       }
 
@@ -500,7 +508,7 @@
         margin-bottom: 30px;
       }
       @include max-screen(428px) {
-       font-size: 30px;
+        font-size: 30px;
       }
     }
 
@@ -516,7 +524,7 @@
         color: $black_color;
         margin-bottom: 111px;
         @include max-screen(768px) {
-         width: 50%;
+          width: 50%;
           margin-bottom: 50px;
         }
         @include max-screen(428px) {
@@ -578,7 +586,7 @@
       margin-bottom: 102px;
       padding-top: 52px;
       @include max-screen(768px) {
-       font-size: 30px;
+        font-size: 30px;
       }
       @include max-screen(428px) {
         font-size: 28px;
