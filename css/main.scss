@@ -580,6 +580,9 @@
       @include max-screen(768px) {
        font-size: 30px;
       }
+      @include max-screen(428px) {
+        font-size: 28px;
+      }
     }
 
     .discover {
@@ -610,6 +613,9 @@
         color: $black_color;
         margin-bottom: 40px;
         padding: 0 50px;
+        @include max-screen(428px) {
+          font-size: 20px;
+        }
 
       }
 
@@ -641,11 +647,17 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    @include max-screen(428px) {
+      max-width: 80%;
+    }
 
     h3 {
       font: 700 36px/normal $main_font;
       padding-top: 80px;
       margin-bottom: 10px;
+      @include max-screen(428px) {
+        padding-top: 40px;
+      }
     }
 
     p {
