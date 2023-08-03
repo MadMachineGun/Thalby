@@ -495,6 +495,13 @@
       padding-top: 190px;
       margin-bottom: 69px;
       text-align: center;
+      @include max-screen(768px) {
+        padding-top: 80px;
+        margin-bottom: 30px;
+      }
+      @include max-screen(428px) {
+       font-size: 30px;
+      }
     }
 
     .point {
@@ -508,6 +515,14 @@
         font: 700 30px/normal $main_font;
         color: $black_color;
         margin-bottom: 111px;
+        @include max-screen(768px) {
+         width: 50%;
+          margin-bottom: 50px;
+        }
+        @include max-screen(428px) {
+          width: 100%;
+          margin-bottom: 30px;
+        }
 
         &:before {
           content: "";
@@ -562,6 +577,9 @@
       font: 700 36px/normal $main_font;
       margin-bottom: 102px;
       padding-top: 52px;
+      @include max-screen(768px) {
+       font-size: 30px;
+      }
     }
 
     .discover {
