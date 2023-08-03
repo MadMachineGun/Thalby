@@ -20,12 +20,21 @@ footer {
     justify-content: space-between;
     padding-top: 50px;
     align-items: start;
+    @include max-screen(428px) {
+      padding-top: 20px;
+      flex-direction: column;
+      align-items: center;
+    }
 
     .social {
       margin-left: 70px;
       @include max-screen(768px) {
         margin-left: 15px;
       }
+      @include max-screen(428px) {
+        margin-bottom: 30px;
+      }
+
       max-width: 130px;
 
       .logo img {
@@ -52,10 +61,16 @@ footer {
 
           &:first-of-type {
             margin-bottom: 36px;
+            @include max-screen(428px) {
+              margin-bottom: 18px;
+            }
           }
 
           &:last-of-type {
             padding-bottom: 60px;
+            @include max-screen(428px) {
+              padding-bottom: 50px;
+            }
           }
 
           a {
@@ -75,9 +90,15 @@ footer {
           color: $white_color;
           list-style-type: none;
           text-decoration: none;
+          @include max-screen(428px) {
+            margin-right: -25px;
+          }
 
           &:first-child {
             margin-bottom: 36px;
+            @include max-screen(428px) {
+              margin-bottom: 18px;
+            }
           }
 
           a {

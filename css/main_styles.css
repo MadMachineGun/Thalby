@@ -759,12 +759,20 @@ footer {
     justify-content: space-between;
     padding-top: 50px;
     align-items: start; }
+    @media screen and (max-width: 428px) {
+      footer .container {
+        padding-top: 20px;
+        flex-direction: column;
+        align-items: center; } }
     footer .container .social {
       margin-left: 70px;
       max-width: 130px; }
       @media screen and (max-width: 768px) {
         footer .container .social {
           margin-left: 15px; } }
+      @media screen and (max-width: 428px) {
+        footer .container .social {
+          margin-bottom: 30px; } }
       footer .container .social .logo img {
         margin-bottom: 37px; }
       footer .container .social .facebook img, footer .container .social .instagram img {
@@ -780,8 +788,14 @@ footer {
         text-decoration: none; }
         footer .container .about_contact .about li:first-of-type {
           margin-bottom: 36px; }
+          @media screen and (max-width: 428px) {
+            footer .container .about_contact .about li:first-of-type {
+              margin-bottom: 18px; } }
         footer .container .about_contact .about li:last-of-type {
           padding-bottom: 60px; }
+          @media screen and (max-width: 428px) {
+            footer .container .about_contact .about li:last-of-type {
+              padding-bottom: 50px; } }
         footer .container .about_contact .about li a {
           font: 400 14px/normal "Roboto", sans-serif;
           color: #fff;
@@ -794,8 +808,14 @@ footer {
         color: #fff;
         list-style-type: none;
         text-decoration: none; }
+        @media screen and (max-width: 428px) {
+          footer .container .about_contact .contact li {
+            margin-right: -25px; } }
         footer .container .about_contact .contact li:first-child {
           margin-bottom: 36px; }
+          @media screen and (max-width: 428px) {
+            footer .container .about_contact .contact li:first-child {
+              margin-bottom: 18px; } }
         footer .container .about_contact .contact li a {
           font: 400 14px/normal "Roboto", sans-serif;
           color: #fff;
