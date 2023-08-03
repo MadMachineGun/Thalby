@@ -93,6 +93,11 @@
         background: $black_color;
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px;
+        &:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none;
+        }
         @include max-screen(768px) {
           font: 400 16px/normal $main_font;
           margin-bottom: 45px;
@@ -233,6 +238,11 @@
         font: 700 17px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+        &:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none;
+        }
       }
     }
   }

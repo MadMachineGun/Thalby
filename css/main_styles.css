@@ -267,6 +267,10 @@ nav {
         background: #000;
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px; }
+        .fall_section .container article a:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none; }
         @media screen and (max-width: 768px) {
           .fall_section .container article a {
             font: 400 16px/normal "Roboto", sans-serif;
@@ -376,6 +380,10 @@ nav {
         font: 700 17px/normal "Roboto", sans-serif;
         color: #000;
         text-decoration-line: underline; }
+        .our_guides .container .catalogue a:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none; }
 
 .people_and_society {
   background: rgba(204, 204, 204, 0.3);
