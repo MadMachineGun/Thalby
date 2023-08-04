@@ -234,6 +234,12 @@ nav {
             padding-top: 140px;
             padding-left: 200px;
             max-width: 100%; } }
+        @media (min-width: 429px) and (max-width: 767px) {
+          .fall_section .container article h1 {
+            font-size: 50px;
+            text-align: center;
+            padding-left: 70px;
+            max-width: 100%; } }
         @media screen and (max-width: 428px) {
           .fall_section .container article h1 {
             font-size: 36px;
@@ -243,12 +249,14 @@ nav {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 26px; }
-        @media (min-width: 428px) and (max-width: 768px) {
+        @media (min-width: 428px) and (max-width: 767px) {
           .fall_section .container article p {
             max-width: 100%;
             text-align: center; } }
         @media screen and (max-width: 768px) {
           .fall_section .container article p {
+            max-width: 100%;
+            text-align: center;
             margin: 0 40px 30px 40px; } }
         @media (min-width: 769px) and (max-width: 1023px) {
           .fall_section .container article p {
