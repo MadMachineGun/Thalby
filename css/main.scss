@@ -24,12 +24,13 @@
       @include max-screen(1024px) {
         max-width: 400px;
       }
-      @include max-screen(992px) {
-        max-width: 350px;
-      }
-      @media (min-width: 428px) and (max-width: 991px) {
+      @media (min-width: 428px) and (max-width: 768px) {
         max-width: 100%;
         text-align: center;
+      }
+      @media (min-width: 769px) and (max-width: 1023px) {
+        align-items: flex-start;
+        padding-left: 15px;
       }
       @include max-screen(428px) {
         padding-left: 0;
@@ -45,20 +46,19 @@
         @include max-screen(1024px) {
           width: 75%;
         }
-        @include max-screen(834px) {
-          width: 100%;
+        @media (min-width: 769px) and (max-width: 1023px) {
+          max-width: 70%;
         }
-
         @include max-screen(768px) {
           margin-bottom: 22px;
           padding-top: 140px;
-          padding-left: 15px;
+          padding-left: 200px;
           max-width: 100%;
         }
         @include max-screen(428px) {
-          font-size: 40px;
+          font-size: 36px;
           text-align: center;
-          padding-left: 35px;
+          padding-left: 100px;
         }
       }
 
@@ -67,18 +67,16 @@
         color: $black_color;
         margin-bottom: 26px;
 
-        @media (min-width: 428px) and (max-width: 991px) {
+        @media (min-width: 428px) and (max-width: 768px) {
           max-width: 100%;
           text-align: center;
         }
         @include max-screen(768px) {
-          margin-bottom: 15px;
-          padding-left: 15px;
+          margin: 0 40px 30px 40px;
         }
-        @include max-screen(428px) {
-          width: 100%;
-          text-align: center;
-          padding-left: 0;
+        @media (min-width: 769px) and (max-width: 1023px) {
+          max-width: 80%;
+          text-align: left;
         }
       }
 
@@ -93,11 +91,13 @@
         background: $black_color;
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px;
+
         &:hover {
           color: cadetblue;
           cursor: pointer;
           text-decoration-line: none;
         }
+
         @include max-screen(768px) {
           font: 400 16px/normal $main_font;
           margin-bottom: 45px;
@@ -105,7 +105,7 @@
         }
         @include max-screen(428px) {
           position: relative;
-          right: -130px;
+          right: 0;
           margin: 0 0 30px 0;
         }
       }
@@ -121,17 +121,17 @@
         max-width: 500px;
         right: 80px;
       }
-      @media (max-width: 992px) {
-        right: -20px;
-      }
-      @media (min-width: 769px) and (max-width: 834px) {
+      //@media (max-width: 992px) {
+      //  right: -20px;
+      //}
+      @media (min-width: 769px) and (max-width: 1023px) {
         position: unset;
         img:nth-child(1) {
           max-width: 450px;
         }
       }
       @media (max-width: 768px) {
-        right: -20px;
+        right: -100px;
         width: 100%;
       }
       @include max-screen(428px) {
@@ -238,6 +238,7 @@
         font: 700 17px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+
         &:hover {
           color: cadetblue;
           cursor: pointer;

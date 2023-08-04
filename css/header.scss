@@ -3,8 +3,7 @@
 
 header {
   background-color: $white_color;
-   padding-top: 15px;
-  @media (min-width: 1025px) and (max-width: 1110px){
+   @media (min-width: 1025px) and (max-width: 1110px){
     padding: 15px 0 0 15px;
   }
 
@@ -111,7 +110,7 @@ nav {
   nav .menu-btn {
     display: inline-block;
     position: absolute;
-    top: 10%;
+    top: 25%;
     right: -20%;
     padding: 0;
     width: 30px;
@@ -204,6 +203,7 @@ nav {
     color: #fff;
     font-size: 2rem;
     transition: all 400ms ease;
+
   }
 
   nav a:hover {

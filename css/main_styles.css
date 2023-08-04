@@ -12,8 +12,7 @@
   align-items: center; }
 
 header {
-  background-color: #fff;
-  padding-top: 15px; }
+  background-color: #fff; }
   @media (min-width: 1025px) and (max-width: 1110px) {
     header {
       padding: 15px 0 0 15px; } }
@@ -92,7 +91,7 @@ nav {
   nav .menu-btn {
     display: inline-block;
     position: absolute;
-    top: 10%;
+    top: 25%;
     right: -20%;
     padding: 0;
     width: 30px;
@@ -206,13 +205,14 @@ nav {
       @media screen and (max-width: 1024px) {
         .fall_section .container article {
           max-width: 400px; } }
-      @media screen and (max-width: 992px) {
-        .fall_section .container article {
-          max-width: 350px; } }
-      @media (min-width: 428px) and (max-width: 991px) {
+      @media (min-width: 428px) and (max-width: 768px) {
         .fall_section .container article {
           max-width: 100%;
           text-align: center; } }
+      @media (min-width: 769px) and (max-width: 1023px) {
+        .fall_section .container article {
+          align-items: flex-start;
+          padding-left: 15px; } }
       @media screen and (max-width: 428px) {
         .fall_section .container article {
           padding-left: 0; } }
@@ -225,37 +225,35 @@ nav {
         @media screen and (max-width: 1024px) {
           .fall_section .container article h1 {
             width: 75%; } }
-        @media screen and (max-width: 834px) {
+        @media (min-width: 769px) and (max-width: 1023px) {
           .fall_section .container article h1 {
-            width: 100%; } }
+            max-width: 70%; } }
         @media screen and (max-width: 768px) {
           .fall_section .container article h1 {
             margin-bottom: 22px;
             padding-top: 140px;
-            padding-left: 15px;
+            padding-left: 200px;
             max-width: 100%; } }
         @media screen and (max-width: 428px) {
           .fall_section .container article h1 {
-            font-size: 40px;
+            font-size: 36px;
             text-align: center;
-            padding-left: 35px; } }
+            padding-left: 100px; } }
       .fall_section .container article p {
         font: 400 24px/normal "Roboto", sans-serif;
         color: #000;
         margin-bottom: 26px; }
-        @media (min-width: 428px) and (max-width: 991px) {
+        @media (min-width: 428px) and (max-width: 768px) {
           .fall_section .container article p {
             max-width: 100%;
             text-align: center; } }
         @media screen and (max-width: 768px) {
           .fall_section .container article p {
-            margin-bottom: 15px;
-            padding-left: 15px; } }
-        @media screen and (max-width: 428px) {
+            margin: 0 40px 30px 40px; } }
+        @media (min-width: 769px) and (max-width: 1023px) {
           .fall_section .container article p {
-            width: 100%;
-            text-align: center;
-            padding-left: 0; } }
+            max-width: 80%;
+            text-align: left; } }
       .fall_section .container article a {
         font: 400 17px/normal "Roboto", sans-serif;
         color: #FFF;
@@ -279,7 +277,7 @@ nav {
         @media screen and (max-width: 428px) {
           .fall_section .container article a {
             position: relative;
-            right: -130px;
+            right: 0;
             margin: 0 0 30px 0; } }
     .fall_section .container .fall_img {
       max-height: 100%;
@@ -290,17 +288,14 @@ nav {
         .fall_section .container .fall_img {
           max-width: 500px;
           right: 80px; } }
-      @media (max-width: 992px) {
-        .fall_section .container .fall_img {
-          right: -20px; } }
-      @media (min-width: 769px) and (max-width: 834px) {
+      @media (min-width: 769px) and (max-width: 1023px) {
         .fall_section .container .fall_img {
           position: unset; }
           .fall_section .container .fall_img img:nth-child(1) {
             max-width: 450px; } }
       @media (max-width: 768px) {
         .fall_section .container .fall_img {
-          right: -20px;
+          right: -100px;
           width: 100%; } }
       @media screen and (max-width: 428px) {
         .fall_section .container .fall_img {
