@@ -338,6 +338,12 @@
       font: 700 17px/normal $main_font;
       color: $black_color;
       text-decoration-line: underline;
+
+      &:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none;
+      }
     }
   }
 }
@@ -427,6 +433,12 @@
       font: 700 17px/normal $main_font;
       color: $black_color;
       text-decoration-line: underline;
+
+      &:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none;
+      }
     }
   }
 }
@@ -508,6 +520,11 @@
       font: 700 17px/normal $main_font;
       color: $black_color;
       text-decoration-line: underline;
+      &:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none;
+      }
     }
   }
 }
@@ -643,7 +660,6 @@
         @include max-screen(428px) {
           font-size: 20px;
         }
-
       }
 
       p {
@@ -656,6 +672,11 @@
         font: 700 18px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+        &:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none;
+        }
       }
     }
   }
@@ -743,6 +764,11 @@
       border: none;
       cursor: pointer;
       margin-bottom: 88px;
+      &:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none;
+      }
     }
   }
 }

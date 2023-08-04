@@ -458,6 +458,10 @@ nav {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
       text-decoration-line: underline; }
+      .people_and_society .people a:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none; }
 
 .culture_and_heritage {
   background: rgba(204, 204, 204, 0.6);
@@ -532,6 +536,10 @@ nav {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
       text-decoration-line: underline; }
+      .culture_and_heritage .culture a:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none; }
 
 .power_and_politics {
   background: rgba(204, 204, 204, 0.3);
@@ -597,6 +605,10 @@ nav {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
       text-decoration-line: underline; }
+      .power_and_politics .power a:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none; }
 
 .some_of_the_features {
   background: #fff; }
@@ -706,6 +718,10 @@ nav {
         font: 700 18px/normal "Roboto", sans-serif;
         color: #000;
         text-decoration-line: underline; }
+        .thalby_guide .container .discover a:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none; }
 
 .subscribe {
   background: #fff;
@@ -768,6 +784,10 @@ nav {
       border: none;
       cursor: pointer;
       margin-bottom: 88px; }
+      .subscribe .container button:hover {
+        color: cadetblue;
+        cursor: pointer;
+        text-decoration-line: none; }
 
 * {
   padding: 0;
@@ -838,6 +858,10 @@ footer {
           color: #fff;
           list-style-type: none;
           text-decoration: none; }
+          footer .container .about_contact .about li a:hover {
+            color: cadetblue;
+            cursor: pointer;
+            text-decoration-line: none; }
       footer .container .about_contact .contact li {
         margin-bottom: 12px;
         margin-right: 30px;
@@ -858,5 +882,9 @@ footer {
           color: #fff;
           list-style-type: none;
           text-decoration: none; }
+          footer .container .about_contact .contact li a:hover {
+            color: cadetblue;
+            cursor: pointer;
+            text-decoration-line: none; }
 
 /*# sourceMappingURL=main_styles.css.map */

@@ -78,6 +78,11 @@ footer {
             color: $white_color;
             list-style-type: none;
             text-decoration: none;
+            &:hover {
+              color: cadetblue;
+              cursor: pointer;
+              text-decoration-line: none;
+            }
           }
         }
       }
@@ -106,6 +111,11 @@ footer {
             color: $white_color;
             list-style-type: none;
             text-decoration: none;
+            &:hover {
+              color: cadetblue;
+              cursor: pointer;
+              text-decoration-line: none;
+            }
           }
         }
       }

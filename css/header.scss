@@ -30,17 +30,18 @@ header {
           margin-right: 7px;
         }
 
-          &:last-of-type {
-            margin-left: 0;
-            img {
-              position: relative;
-              top: -2px;
-            }
+        &:last-of-type {
+          margin-left: 0;
+
+          img {
+            position: relative;
+            top: -2px;
           }
         }
       }
     }
   }
+}
 
 
 nav {
