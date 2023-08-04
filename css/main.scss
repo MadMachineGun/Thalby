@@ -130,9 +130,7 @@
         max-width: 500px;
         right: 80px;
       }
-      //@media (max-width: 992px) {
-      //  right: -20px;
-      //}
+
       @media (min-width: 769px) and (max-width: 1023px) {
         position: unset;
         img:nth-child(1) {
@@ -143,6 +141,7 @@
         right: -100px;
         width: 100%;
       }
+
       @include max-screen(428px) {
         position: unset;
         img:nth-child(1) {

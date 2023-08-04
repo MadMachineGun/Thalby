@@ -32,8 +32,11 @@ header {
       align-items: center; }
       header .container ul li:first-of-type {
         margin-right: 7px; }
-        header .container ul li:first-of-type:last-of-type {
-          margin-left: 15px; }
+      header .container ul li:last-of-type {
+        margin-left: 0; }
+        header .container ul li:last-of-type img {
+          position: relative;
+          top: -2px; }
 
 nav {
   transform: translateX(0);
