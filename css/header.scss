@@ -18,6 +18,12 @@ header {
     .logo {
       position: absolute;
       left: calc(50% - 40px);
+
+      &:hover {
+        filter: brightness(1.5);
+        box-shadow: 0 0 20px rgba(255, 255, 255, 1.5);
+        cursor: pointer;
+      }
     }
 
     ul {
@@ -36,6 +42,12 @@ header {
           img {
             position: relative;
             top: -2px;
+          }
+        }
+        img {
+          &:hover {
+            filter: brightness(1.5);
+            cursor: pointer;
           }
         }
       }

@@ -40,11 +40,23 @@ footer {
 
       .logo img {
         margin-bottom: 37px;
+        &:hover {
+          filter: brightness(10);
+          box-shadow: 0 0 20px rgba(255, 255, 255, 2);
+          cursor: pointer;
+        }
       }
 
-      .facebook img, .instagram img {
+      .facebook img, .instagram img, .twitter img {
         margin-right: 20px;
-
+        &:hover {
+          filter: brightness(10);
+          box-shadow: 0 0 20px rgba(255, 255, 255, 2);
+          cursor: pointer;
+        }
+      }
+      .twitter img{
+        margin-right: 0;
       }
     }
 

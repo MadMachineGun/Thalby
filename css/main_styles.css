@@ -26,6 +26,10 @@ header {
     header .container .logo {
       position: absolute;
       left: calc(50% - 40px); }
+      header .container .logo:hover {
+        filter: brightness(1.5);
+        box-shadow: 0 0 20px white;
+        cursor: pointer; }
     header .container ul {
       display: flex;
       list-style: none;
@@ -37,6 +41,9 @@ header {
         header .container ul li:last-of-type img {
           position: relative;
           top: -2px; }
+      header .container ul li img:hover {
+        filter: brightness(1.5);
+        cursor: pointer; }
 
 nav {
   transform: translateX(0);
@@ -839,8 +846,18 @@ footer {
           margin-bottom: 30px; } }
       footer .container .social .logo img {
         margin-bottom: 37px; }
-      footer .container .social .facebook img, footer .container .social .instagram img {
+        footer .container .social .logo img:hover {
+          filter: brightness(10);
+          box-shadow: 0 0 20px white;
+          cursor: pointer; }
+      footer .container .social .facebook img, footer .container .social .instagram img, footer .container .social .twitter img {
         margin-right: 20px; }
+        footer .container .social .facebook img:hover, footer .container .social .instagram img:hover, footer .container .social .twitter img:hover {
+          filter: brightness(10);
+          box-shadow: 0 0 20px white;
+          cursor: pointer; }
+      footer .container .social .twitter img {
+        margin-right: 0; }
     footer .container .about_contact {
       display: flex; }
       footer .container .about_contact .about li {
