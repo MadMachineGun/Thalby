@@ -9,6 +9,7 @@
   .container {
     display: flex;
     justify-content: space-between;
+
     @media (min-width: 1024px) and (max-width: 1110px) {
       margin: 0 15px;
     }
@@ -101,6 +102,11 @@
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px;
         transition: color 0.3s ease;
+        &:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none;
+        }
 
         @include max-screen(768px) {
           font: 400 16px/normal $main_font;
@@ -111,11 +117,6 @@
           position: relative;
           right: 0;
           margin: 0 0 30px 0;
-        }
-        &:hover {
-          color: cadetblue;
-          cursor: pointer;
-          text-decoration-line: none;
         }
       }
     }
@@ -246,6 +247,7 @@
         font: 700 17px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+        transition: color 0.3s ease;
 
         &:hover {
           color: cadetblue;
@@ -338,6 +340,7 @@
       font: 700 17px/normal $main_font;
       color: $black_color;
       text-decoration-line: underline;
+      transition: color 0.3s ease;
 
       &:hover {
         color: cadetblue;
@@ -433,6 +436,7 @@
       font: 700 17px/normal $main_font;
       color: $black_color;
       text-decoration-line: underline;
+      transition: color 0.3s ease;
 
       &:hover {
         color: cadetblue;
@@ -520,6 +524,8 @@
       font: 700 17px/normal $main_font;
       color: $black_color;
       text-decoration-line: underline;
+      transition: color 0.3s ease;
+
       &:hover {
         color: cadetblue;
         cursor: pointer;
@@ -672,6 +678,8 @@
         font: 700 18px/normal $main_font;
         color: $black_color;
         text-decoration-line: underline;
+        transition: color 0.3s ease;
+
         &:hover {
           color: cadetblue;
           cursor: pointer;
@@ -764,6 +772,8 @@
       border: none;
       cursor: pointer;
       margin-bottom: 88px;
+      transition: color 0.3s ease;
+
       &:hover {
         color: cadetblue;
         cursor: pointer;
@@ -772,7 +782,6 @@
     }
   }
 }
-
 
 
 

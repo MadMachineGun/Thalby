@@ -114,7 +114,10 @@ nav a {
 
 nav a:hover {
     color: #222;
+    transition: color 0.3s ease;
 }
+
+
 /*280px
 320px
 360px

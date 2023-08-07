@@ -32,7 +32,7 @@
         </a>
         <ul>
             <li>
-                <a href="#">
+                <a href="/about">
                     <img src="images/inst.svg" alt="instagram">
                 </a>
             </li>
@@ -177,20 +177,20 @@
         <div class="container">
             <h3>Keep in touch</h3>
             <p>Get our travel advice, global views and travel freebies in your<br> inbox</p>
-            <form>
+            <form action="/subscribe" method="post" class="subscribe-form">
                 <div class="name_input">
                     <div class="fn">
                         <label for="first-name"></label>
-                        <input type="text" name="First Name" placeholder="First Name" id="first-name">
+                        <input type="text" name="First Name" placeholder="First Name" id="first-name" required>
                     </div>
                     <div class="ln">
                         <label for="last-name"></label>
-                        <input type="text" name="Last Name" placeholder="Last Name" id="last-name">
+                        <input type="text" name="Last Name" placeholder="Last Name" id="last-name" required>
                     </div>
                 </div>
                 <div class="email">
                     <label for="email"></label>
-                    <input type="text" name="email" placeholder="Email" id="email">
+                    <input type="email" name="email" placeholder="Email" id="email" required>
                 </div>
                 <div class="subscribe">
                     <button type="submit">Subscribe</button>
@@ -202,14 +202,13 @@
 <footer>
     <p>Thalby LLC © 2021</p>
     <div class="container">
-
         <div class="social">
             <a href="#" class="logo">
                 <img src="images/footer_logo.svg" alt="footer_logo">
             </a>
-            <a class="facebook" href="#"><img src="images/facebook.svg" alt="Facebook"></a>
-            <a class="instagram" href="#"><img src="images/instagram.svg" alt="Instagram"></a>
-            <a class="twitter" href="#"><img src="images/twitter.svg" alt="Twitter"></a>
+            <a class="facebook" href="/about"><img src="images/facebook.svg" alt="Facebook"></a>
+            <a class="instagram" href="/about"><img src="images/instagram.svg" alt="Instagram"></a>
+            <a class="twitter" href="/about"><img src="images/twitter.svg" alt="Twitter"></a>
         </div>
         <div class="about_contact">
             <ul class="about">

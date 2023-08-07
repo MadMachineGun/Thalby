@@ -2,13 +2,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@400;500;700&display=swap");
-a {
-  transition: color 0.3s ease !important; }
-  a:hover {
-    color: cadetblue !important;
-    cursor: pointer !important;
-    text-decoration-line: none !important; }
-
 * {
   padding: 0;
   margin: 0; }
@@ -284,6 +277,10 @@ nav {
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px;
         transition: color 0.3s ease; }
+        .fall_section .container article a:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none; }
         @media screen and (max-width: 768px) {
           .fall_section .container article a {
             font: 400 16px/normal "Roboto", sans-serif;
@@ -294,10 +291,6 @@ nav {
             position: relative;
             right: 0;
             margin: 0 0 30px 0; } }
-        .fall_section .container article a:hover {
-          color: cadetblue;
-          cursor: pointer;
-          text-decoration-line: none; }
     .fall_section .container .fall_img {
       max-height: 100%;
       max-width: 599px;
@@ -393,7 +386,8 @@ nav {
       .our_guides .container .catalogue a {
         font: 700 17px/normal "Roboto", sans-serif;
         color: #000;
-        text-decoration-line: underline; }
+        text-decoration-line: underline;
+        transition: color 0.3s ease; }
         .our_guides .container .catalogue a:hover {
           color: cadetblue;
           cursor: pointer;
@@ -465,7 +459,8 @@ nav {
     .people_and_society .people a {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
-      text-decoration-line: underline; }
+      text-decoration-line: underline;
+      transition: color 0.3s ease; }
       .people_and_society .people a:hover {
         color: cadetblue;
         cursor: pointer;
@@ -543,7 +538,8 @@ nav {
     .culture_and_heritage .culture a {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
-      text-decoration-line: underline; }
+      text-decoration-line: underline;
+      transition: color 0.3s ease; }
       .culture_and_heritage .culture a:hover {
         color: cadetblue;
         cursor: pointer;
@@ -612,7 +608,8 @@ nav {
     .power_and_politics .power a {
       font: 700 17px/normal "Roboto", sans-serif;
       color: #000;
-      text-decoration-line: underline; }
+      text-decoration-line: underline;
+      transition: color 0.3s ease; }
       .power_and_politics .power a:hover {
         color: cadetblue;
         cursor: pointer;
@@ -725,7 +722,8 @@ nav {
       .thalby_guide .container .discover a {
         font: 700 18px/normal "Roboto", sans-serif;
         color: #000;
-        text-decoration-line: underline; }
+        text-decoration-line: underline;
+        transition: color 0.3s ease; }
         .thalby_guide .container .discover a:hover {
           color: cadetblue;
           cursor: pointer;
@@ -791,7 +789,8 @@ nav {
       padding: 7px 23px 10px;
       border: none;
       cursor: pointer;
-      margin-bottom: 88px; }
+      margin-bottom: 88px;
+      transition: color 0.3s ease; }
       .subscribe .container button:hover {
         color: cadetblue;
         cursor: pointer;
@@ -865,7 +864,8 @@ footer {
           font: 400 14px/normal "Roboto", sans-serif;
           color: #fff;
           list-style-type: none;
-          text-decoration: none; }
+          text-decoration: none;
+          transition: color 0.3s ease; }
           footer .container .about_contact .about li a:hover {
             color: cadetblue;
             cursor: pointer;
@@ -889,7 +889,8 @@ footer {
           font: 400 14px/normal "Roboto", sans-serif;
           color: #fff;
           list-style-type: none;
-          text-decoration: none; }
+          text-decoration: none;
+          transition: color 0.3s ease; }
           footer .container .about_contact .contact li a:hover {
             color: cadetblue;
             cursor: pointer;
