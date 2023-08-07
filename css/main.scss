@@ -100,12 +100,7 @@
         background: $black_color;
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px;
-
-        &:hover {
-          color: cadetblue;
-          cursor: pointer;
-          text-decoration-line: none;
-        }
+        transition: color 0.3s ease;
 
         @include max-screen(768px) {
           font: 400 16px/normal $main_font;
@@ -116,6 +111,11 @@
           position: relative;
           right: 0;
           margin: 0 0 30px 0;
+        }
+        &:hover {
+          color: cadetblue;
+          cursor: pointer;
+          text-decoration-line: none;
         }
       }
     }

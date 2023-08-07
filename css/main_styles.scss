@@ -1,3 +1,13 @@
+a {
+  transition: color 0.3s ease !important;
+
+  &:hover {
+    color: cadetblue !important;
+    cursor: pointer !important;
+    text-decoration-line: none !important;
+  }
+}
+
 @import "header";
 @import "main";
 @import "footer";
