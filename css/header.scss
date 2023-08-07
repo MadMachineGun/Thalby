@@ -31,6 +31,7 @@ header {
       list-style: none;
       align-items: center;
 
+
       li {
         &:first-of-type {
           margin-right: 7px;
@@ -44,12 +45,12 @@ header {
             top: -2px;
           }
         }
-        img {
-          &:hover {
-            filter: brightness(1.5);
-            cursor: pointer;
-          }
+
+        &:hover {
+          filter: brightness(1.5);
+          cursor: pointer;
         }
+
       }
     }
   }

@@ -41,7 +41,7 @@ header {
         header .container ul li:last-of-type img {
           position: relative;
           top: -2px; }
-      header .container ul li img:hover {
+      header .container ul li:hover {
         filter: brightness(1.5);
         cursor: pointer; }
 
