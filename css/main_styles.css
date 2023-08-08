@@ -771,7 +771,7 @@ nav {
         gap: 60px; }
       .subscribe .container form .email {
         width: 366px;
-        margin-bottom: 16px; }
+        margin: 15px 0; }
       .subscribe .container form .fn, .subscribe .container form .ln {
         width: 153px; }
       .subscribe .container form label {

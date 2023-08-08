@@ -102,6 +102,7 @@
         padding: 7px 23px 9px 23px;
         margin-bottom: 90px;
         transition: color 0.3s ease;
+
         &:hover {
           color: cadetblue;
           cursor: pointer;
@@ -735,8 +736,8 @@
 
       .email {
         width: 366px;
-        margin-bottom: 16px;
-      }
+        margin: 15px 0;
+        }
 
       .fn, .ln, {
         width: 153px;
