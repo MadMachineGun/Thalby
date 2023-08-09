@@ -99,10 +99,9 @@ nav .nav-links .link {
 }
 
 nav .nav-links .link:hover {
-    /*color: rgba(0, 0, 0, .5);*/
-    color: cadetblue;
+    color: #CCCCCC99;
     cursor: pointer;
-    text-decoration-line: underline;
+    text-decoration-line: none;
 }
 
 nav a {
