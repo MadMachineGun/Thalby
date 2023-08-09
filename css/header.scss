@@ -211,6 +211,9 @@ nav {
     padding: 7px 23px 9px 23px;
     background: #CCC9;
     color: black;
+    @media only screen and (max-width: 428px) {
+      font: 400 16px/normal "Roboto", sans-serif;
+    }
   }
 
   nav .nav-links .link:hover {

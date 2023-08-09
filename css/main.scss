@@ -732,28 +732,43 @@
       .name_input {
         display: flex;
         gap: 60px;
+        position: relative;
       }
 
       .email {
         width: 366px;
         margin: 15px 0;
-        }
+      }
 
-      .fn, .ln, {
+      .fn,
+      .ln {
         width: 153px;
       }
 
       label {
+        position: absolute;
+        top: 50%;
+        left: 10px;
+        transform: translateY(-50%);
         font: 400 14px/normal $main_font;
-        color: #A0A0A0;
-        padding: 12px 8px;
+        color: transparent;
+        pointer-events: none;
+        transition: all 0.3s ease;
       }
 
       input {
         width: 100%;
         border: 1px solid $black_color;
         padding: 12px 0 11px 8px;
+        position: relative;
+        z-index: 1;
       }
+
+      input:focus + label {
+        transform: translateY(-150%);
+        font-size: 12px;
+        color: $black_color;
+        }
 
       &::placeholder {
         color: transparent;
