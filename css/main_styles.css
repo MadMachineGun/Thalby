@@ -815,6 +815,9 @@ nav {
       cursor: pointer;
       margin-bottom: 88px;
       transition: color 0.3s ease; }
+      @media screen and (max-width: 428px) {
+        .subscribe .container button {
+          margin-bottom: 45%; } }
       .subscribe .container button:hover {
         color: cadetblue;
         cursor: pointer;
