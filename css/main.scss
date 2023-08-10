@@ -745,16 +745,28 @@
         display: flex;
         gap: 60px;
         position: relative;
+        @media (max-width: 427px) {
+          flex-direction: column;
+          gap: 0;
+        }
       }
 
       .email {
         width: 366px;
         margin: 15px 0;
+        @media (max-width: 427px) {
+          width: 100%;
+          margin: 10px 0;
+        }
       }
 
       .fn,
       .ln {
         width: 153px;
+        @media (max-width: 427px) {
+          width: 100%;
+          margin-bottom: 15px;
+        }
       }
 
       label {
