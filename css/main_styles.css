@@ -811,6 +811,9 @@ nav {
           .subscribe .container form .email {
             width: 100%;
             margin: 10px 0; } }
+        @media screen and (max-width: 360px) {
+          .subscribe .container form .email {
+            margin: 0 0 15px 0; } }
       .subscribe .container form .fn,
       .subscribe .container form .ln {
         width: 153px; }
