@@ -306,6 +306,9 @@
       @include max-screen(768px) {
         padding-left: 20px;
       }
+      @include max-screen(360px) {
+        max-width: 360px;
+      }
     }
 
     img {
@@ -314,6 +317,9 @@
       @include max-screen(428px) {
         max-width: 85%;
       }
+      //@include max-screen(360px) {
+      //  max-width: 85%;
+      //}
     }
   }
 

@@ -35,11 +35,15 @@ footer {
       @include max-screen(428px) {
         margin-bottom: 30px;
       }
+      @include max-screen(360px) {
+        margin-left: 0;
+      }
 
       max-width: 130px;
 
       .logo img {
         margin-bottom: 37px;
+
         &:hover {
           filter: brightness(10);
           box-shadow: 0 0 20px rgba(255, 255, 255, 2);
@@ -49,13 +53,15 @@ footer {
 
       .facebook img, .instagram img, .twitter img {
         margin-right: 20px;
+
         &:hover {
           filter: brightness(10);
           box-shadow: 0 0 20px rgba(255, 255, 255, 2);
           cursor: pointer;
         }
       }
-      .twitter img{
+
+      .twitter img {
         margin-right: 0;
       }
     }
@@ -71,6 +77,10 @@ footer {
           color: $white_color;
           list-style-type: none;
           text-decoration: none;
+          @include max-screen(360px) {
+            margin-right: 40px;
+            margin-left: -30px;
+          }
 
           &:first-of-type {
             margin-bottom: 36px;
@@ -92,6 +102,9 @@ footer {
             list-style-type: none;
             text-decoration: none;
             transition: color 0.3s ease;
+            @include max-screen(360px) {
+              font-size: 12px;
+            }
 
             &:hover {
               color: cadetblue;
@@ -127,6 +140,9 @@ footer {
             list-style-type: none;
             text-decoration: none;
             transition: color 0.3s ease;
+            @include max-screen(360px) {
+              font-size: 12px;
+            }
 
             &:hover {
               color: cadetblue;

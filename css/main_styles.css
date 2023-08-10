@@ -447,6 +447,9 @@ nav {
       @media screen and (max-width: 768px) {
         .people_and_society .container .french_people_image {
           padding-left: 20px; } }
+      @media screen and (max-width: 360px) {
+        .people_and_society .container .french_people_image {
+          max-width: 360px; } }
     .people_and_society .container img {
       width: 100%;
       display: block; }
@@ -900,6 +903,9 @@ footer {
       @media screen and (max-width: 428px) {
         footer .container .social {
           margin-bottom: 30px; } }
+      @media screen and (max-width: 360px) {
+        footer .container .social {
+          margin-left: 0; } }
       footer .container .social .logo img {
         margin-bottom: 37px; }
         footer .container .social .logo img:hover {
@@ -923,6 +929,10 @@ footer {
         color: #fff;
         list-style-type: none;
         text-decoration: none; }
+        @media screen and (max-width: 360px) {
+          footer .container .about_contact .about li {
+            margin-right: 40px;
+            margin-left: -30px; } }
         footer .container .about_contact .about li:first-of-type {
           margin-bottom: 36px; }
           @media screen and (max-width: 428px) {
@@ -939,6 +949,9 @@ footer {
           list-style-type: none;
           text-decoration: none;
           transition: color 0.3s ease; }
+          @media screen and (max-width: 360px) {
+            footer .container .about_contact .about li a {
+              font-size: 12px; } }
           footer .container .about_contact .about li a:hover {
             color: cadetblue;
             cursor: pointer;
@@ -964,6 +977,9 @@ footer {
           list-style-type: none;
           text-decoration: none;
           transition: color 0.3s ease; }
+          @media screen and (max-width: 360px) {
+            footer .container .about_contact .contact li a {
+              font-size: 12px; } }
           footer .container .about_contact .contact li a:hover {
             color: cadetblue;
             cursor: pointer;
