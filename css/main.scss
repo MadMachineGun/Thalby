@@ -153,7 +153,8 @@
         position: unset;
         img:nth-child(1) {
           max-width: 500px;
-        }}
+        }
+      }
       @include max-screen(428px) {
         position: unset;
         img:nth-child(1) {
@@ -802,7 +803,7 @@
         transform: translateY(-150%);
         font-size: 12px;
         color: $black_color;
-        }
+      }
 
       &::placeholder {
         color: transparent;
