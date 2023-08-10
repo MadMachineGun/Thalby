@@ -77,9 +77,9 @@ footer {
           color: $white_color;
           list-style-type: none;
           text-decoration: none;
-          @include max-screen(360px) {
+          @include max-screen(427px) {
             margin-right: 40px;
-            margin-left: -30px;
+            margin-left: 20px;
           }
 
           &:first-of-type {
