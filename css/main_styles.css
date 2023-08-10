@@ -387,7 +387,7 @@ nav {
       margin: auto;
       display: flex;
       align-items: center;
-      margin-bottom: 248px; }
+      margin-bottom: 150px; }
       @media screen and (max-width: 768px) {
         .our_guides .container .catalogue {
           display: block; } }
