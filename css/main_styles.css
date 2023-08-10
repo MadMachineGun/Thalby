@@ -338,6 +338,16 @@ nav {
           position: unset; }
           .fall_section .container .fall_img img:nth-child(1) {
             max-width: 400px; } }
+      @media screen and (max-width: 427px) {
+        .fall_section .container .fall_img {
+          position: unset; }
+          .fall_section .container .fall_img img:nth-child(1) {
+            max-width: 360px; } }
+      @media screen and (max-width: 359px) {
+        .fall_section .container .fall_img {
+          position: unset; }
+          .fall_section .container .fall_img img:nth-child(1) {
+            max-width: 300px; } }
 
 .our_guides {
   background: white;
