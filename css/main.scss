@@ -22,7 +22,7 @@
       align-items: flex-start;
       flex-direction: column;
       max-width: 465px;
-      @include max-screen(1024px) {
+      @include max-screen(1280px) {
         max-width: 400px;
       }
       @media (min-width: 428px) and (max-width: 768px) {
@@ -44,7 +44,7 @@
         margin-top: 90px;
         max-width: 540px;
 
-        @include max-screen(1024px) {
+        @include max-screen(1280px) {
           width: 75%;
         }
         @media (min-width: 769px) and (max-width: 1023px) {
@@ -56,12 +56,7 @@
           max-width: 100%;
           font-size: 40px;
         }
-        //@media (min-width: 429px) and (max-width: 767px) {
-        //  font-size: 40px;
-        //  text-align: center;
-        //  margin: 90px auto 22px;
-        //  max-width: 100%;
-        //}
+
         @include max-screen(428px) {
           font-size: 36px;
           text-align: center;
@@ -139,7 +134,7 @@
       position: relative;
       right: -100px;
 
-      @media (max-width: 1024px) {
+      @media (max-width: 1280px) {
         max-width: 500px;
         right: 80px;
       }
