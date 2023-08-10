@@ -405,6 +405,9 @@ nav {
         @media (max-width: 834px) {
           .our_guides .container .catalogue img {
             padding-top: 15px; } }
+        @media (max-width: 427px) {
+          .our_guides .container .catalogue img {
+            width: 65%; } }
       .our_guides .container .catalogue article {
         display: flex;
         max-width: 315px; }
@@ -447,9 +450,11 @@ nav {
       @media screen and (max-width: 768px) {
         .people_and_society .container .french_people_image {
           padding-left: 20px; } }
-      @media screen and (max-width: 360px) {
+      @media screen and (max-width: 427px) {
         .people_and_society .container .french_people_image {
-          max-width: 360px; } }
+          width: 320px;
+          margin: auto;
+          padding-left: 50px; } }
     .people_and_society .container img {
       width: 100%;
       display: block; }
@@ -527,6 +532,11 @@ nav {
         .culture_and_heritage .container .moroccan_culture_image {
           order: -1;
           margin: 0; } }
+      @media screen and (max-width: 427px) {
+        .culture_and_heritage .container .moroccan_culture_image {
+          width: 360px;
+          margin: auto;
+          padding-right: 0; } }
     .culture_and_heritage .container img {
       width: 100%;
       display: block; }
@@ -534,6 +544,11 @@ nav {
         .culture_and_heritage .container img {
           max-width: 85%;
           margin-left: 40px; } }
+      @media screen and (max-width: 427px) {
+        .culture_and_heritage .container img {
+          width: 70%;
+          padding-left: 15px;
+          margin-left: 50px; } }
   .culture_and_heritage .culture {
     width: 500px;
     display: block;
@@ -602,12 +617,18 @@ nav {
       @media screen and (max-width: 768px) {
         .power_and_politics .container .german_power_image {
           padding-left: 20px; } }
+      @media screen and (max-width: 427px) {
+        .power_and_politics .container .german_power_image {
+          width: 320px; } }
       .power_and_politics .container .german_power_image img {
         width: 100%;
         display: block; }
         @media screen and (max-width: 428px) {
           .power_and_politics .container .german_power_image img {
             max-width: 85%; } }
+        @media screen and (max-width: 427px) {
+          .power_and_politics .container .german_power_image img {
+            width: 90%; } }
   .power_and_politics .power {
     width: 500px;
     display: block;
