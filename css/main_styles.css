@@ -279,7 +279,7 @@ nav {
           .fall_section .container article p {
             max-width: 80%;
             text-align: left; } }
-        @media (min-width: 300px) and (max-width: 427px) {
+        @media (max-width: 427px) {
           .fall_section .container article p {
             position: relative;
             right: 0;
