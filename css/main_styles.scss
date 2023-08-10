@@ -1,6 +1,12 @@
-*{
+html{
   box-sizing: border-box;
 }
+*, *:after, *:before{
+  box-sizing: inherit;
+}
+//*{
+//  box-sizing: border-box;
+//}
 @import "header";
 @import "main";
 @import "footer";
