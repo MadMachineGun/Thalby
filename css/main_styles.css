@@ -764,7 +764,7 @@ nav {
             max-width: 720px; } }
       .thalby_guide .container .discover img {
         margin-bottom: 35px;
-        max-width: 100%; }
+        width: 100%; }
       .thalby_guide .container .discover h4 {
         font: 700 22px/normal "Roboto", sans-serif;
         color: #000;
